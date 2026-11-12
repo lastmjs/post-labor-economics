@@ -1,6 +1,6 @@
 #import "template.typ": *
 
-= Appendix A: The models <app-models>
+= The models <app-models>
 
 The main text argues in words. This appendix gives the mathematics behind the statements about wages, so that a reader who wants to check the logic can do so. Everything here is implemented in `models/economy.py` in the repository, and the closed-form solutions are tested there against a numerical optimizer.
 
@@ -67,6 +67,52 @@ This is Ricardo's and Malthus's result about a population that multiplies on a f
 == The identity for human-required work
 
 Suppose a fraction $h$ of all spending goes to human-required work (@d-human-required) and that this is the only work paid for. Total income equals total spending, $Y$. Wages are $h Y$, and so the wage share is $h$. If the people who do this work number $n$, the average wage is $h Y slash n$. This is @p-residual-share. The wage level rises with the size of the economy and with the taste for human service, and falls with the number competing to provide it.
+
+== The scenario accounting
+
+The scenarios of @ch-scenarios are run through a separate, simpler piece of bookkeeping, implemented in `models/scenarios.py`. Work is divided into three kinds, with their shares of American jobs and of American wages:
+
+#figure(
+  datatable(
+    columns: (1fr, auto, auto),
+    align: (left, right, right),
+    header: ([Kind of work], [Share of jobs], [Share of wages]),
+    [Screen-based: can be done entirely at a computer], [37%], [46%],
+    [Physical: the nine mainly physical occupation groups], [42%], [29%],
+    [In-person: the remainder, face-to-face and mixed], [21%], [25%],
+  ),
+  caption: [The three kinds of work in the scenario accounting. Sources: Dingel and Neiman (2020) for screen-based work; US Bureau of Labor Statistics, May 2025, for physical work.],
+)
+
+Each scenario is an assumption about the share of each kind of work that machines do in each year, drawn as an S-shaped curve from its 2026 level toward a ceiling. Write $M$ for the machine share of all work weighted by jobs and $M_w$ for the share weighted by wages. Three relations then give the outputs.
+
+Hours of human work, relative to a path with no AI:
+$ H = 1 - M (1 - r (1 - M)) + "jobs created by policy" - "recession". $
+Here $r$ is the share of displaced hours that find other work while machines are still rare. Reabsorption fades as $M$ rises, because less and less work remains that machines cannot also do.
+
+Output, relative to a trend of 1.9 percent a year:
+$ Y = (1 + 1.6 M_w^2) dot e^(kappa C), $
+where $C$ is the cumulative machine share of physical work and $kappa$ captures the extra growth that comes when machines can build machines. It is zero or small except in the takeoff scenario.
+
+Labor's share of income:
+$ s = 53.0% times H times (1 - 0.5 (1 - H)). $
+This says that while people are still needed, pay per hour keeps pace with output, less a discount for slack in the labor market.
+
+With $r = 0.85$ these relations reproduce the three scenarios for 2030 published by Korinek, Jones and coauthors, at the levels of automation those authors describe @anthropic-scenarios-2026:
+
+#figure(
+  datatable(
+    columns: (1.4fr, auto, auto, auto, auto),
+    align: (left, right, right, right, right),
+    header: ([AI share of screen-based work], [Output gain, here], [Output gain, published], [Labor share change, here], [Labor share change, published]),
+    [About a fifth ("modest")], [1.4%], [1.6%], [−1.4], [−0.6],
+    [About half ("substantial")], [8.5%], [8.3%], [−5.0], [−3.9],
+    [Nearly all ("extreme")], [31.9%], [32.4%], [−13.9], [−14.8],
+  ),
+  caption: [The scenario accounting against the published scenarios it is calibrated to. Changes in labor's share are in percentage points from a base of 60 percent, as in the published work.],
+)
+
+Everything beyond those levels of automation, and everything concerning physical work, is my extrapolation. The parameters of each scenario are listed in the code. The accounting implies that total pay holds up for a surprisingly long time, because it inherits from the theory the result that the people who do the remaining necessary tasks are paid more (@p-cliff). It has nothing to say about how that pay is divided, which is where the hardship in the scenarios lies.
 
 == What these models leave out
 

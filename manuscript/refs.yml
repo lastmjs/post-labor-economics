@@ -1,0 +1,579 @@
+# Sources cited in the guide. Each entry gives the link that was read.
+# Fuller source lists, with a note on how each source was checked, are in research/.
+
+# ---------------------------------------------------------------- research notes
+notes-theory:
+  type: web
+  title: "Research note 01: The formal economic theory of automation and full automation"
+  author: "Post-Labor Economics repository"
+  date: 2026-11-12
+  url: https://github.com/lastmjs/post-labor-economics/blob/main/research/01-theory.md
+notes-ai:
+  type: web
+  title: "Research note 02: The state of AI capability, cost and deployment, November 2026"
+  author: "Post-Labor Economics repository"
+  date: 2026-11-12
+  url: https://github.com/lastmjs/post-labor-economics/blob/main/research/02-ai-state-2026.md
+notes-labor:
+  type: web
+  title: "Research note 03: Labor-market evidence, 2022 to November 2026"
+  author: "Post-Labor Economics repository"
+  date: 2026-11-12
+  url: https://github.com/lastmjs/post-labor-economics/blob/main/research/03-labor-market-evidence.md
+notes-robots:
+  type: web
+  title: "Research note 04: The automation of physical labor"
+  author: "Post-Labor Economics repository"
+  date: 2026-11-12
+  url: https://github.com/lastmjs/post-labor-economics/blob/main/research/04-robotics-physical.md
+notes-baseline:
+  type: web
+  title: "Research note 05: The structure of the US economy"
+  author: "Post-Labor Economics repository"
+  date: 2026-11-12
+  url: https://github.com/lastmjs/post-labor-economics/blob/main/research/05-us-baseline.md
+notes-history:
+  type: web
+  title: "Research note 06: Historical analogues"
+  author: "Post-Labor Economics repository"
+  date: 2026-11-12
+  url: https://github.com/lastmjs/post-labor-economics/blob/main/research/06-history.md
+policy-notes:
+  type: web
+  title: "Research note 07: Policy and political economy of AI and work"
+  author: "Post-Labor Economics repository"
+  date: 2026-11-12
+  url: https://github.com/lastmjs/post-labor-economics/blob/main/research/07-policy-politics.md
+notes-landscape:
+  type: web
+  title: "Research note 08: The landscape of positions and scenarios"
+  author: "Post-Labor Economics repository"
+  date: 2026-11-12
+  url: https://github.com/lastmjs/post-labor-economics/blob/main/research/08-scenario-landscape.md
+notes-compute:
+  type: web
+  title: "Research note 09: How fast can the supply of machine labor physically expand?"
+  author: "Post-Labor Economics repository"
+  date: 2026-11-12
+  url: https://github.com/lastmjs/post-labor-economics/blob/main/research/09-compute-energy-limits.md
+
+# ---------------------------------------------------------------- theory
+korinek-suh-2024:
+  type: report
+  title: "Scenarios for the Transition to AGI"
+  author: ["Korinek, Anton", "Suh, Donghyun"]
+  date: 2024
+  organization: "NBER Working Paper 32255"
+  url: https://www.nber.org/papers/w32255
+restrepo-2025:
+  type: report
+  title: "We Won't Be Missed: Work and Growth in the AGI World"
+  author: ["Restrepo, Pascual"]
+  date: 2025
+  organization: "NBER Working Paper 34423"
+  url: https://www.nber.org/papers/w34423
+trammell-korinek-2025:
+  type: report
+  title: "Economic Growth under Transformative AI"
+  author: ["Trammell, Philip", "Korinek, Anton"]
+  date: 2025
+  organization: "Revised version of NBER Working Paper 31815"
+  url: https://philiptrammell.com/static/economic_growth_under_transformative_ai.pdf
+aghion-jones-jones-2019:
+  type: report
+  title: "Artificial Intelligence and Economic Growth"
+  author: ["Aghion, Philippe", "Jones, Benjamin F.", "Jones, Charles I."]
+  date: 2019
+  url: https://web.stanford.edu/~chadj/AJJ-AIandGrowth.pdf
+acemoglu-restrepo-2018:
+  type: report
+  title: "The Race between Man and Machine: Implications of Technology for Growth, Factor Shares, and Employment"
+  author: ["Acemoglu, Daron", "Restrepo, Pascual"]
+  date: 2018
+  organization: "NBER Working Paper 22252"
+  url: https://www.nber.org/papers/w22252
+jones-tonetti-2026:
+  type: report
+  title: "Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion"
+  author: ["Jones, Charles I.", "Tonetti, Christopher"]
+  date: 2026
+  url: https://web.stanford.edu/~chadj/JonesTonetti_Automation.pdf
+erdil-besiroglu-2023:
+  type: report
+  title: "Explosive Growth from AI Automation: A Review of the Arguments"
+  author: ["Erdil, Ege", "Besiroglu, Tamay"]
+  date: 2023
+  url: https://arxiv.org/abs/2309.11690
+hanson-2001:
+  type: report
+  title: "Economic Growth Given Machine Intelligence"
+  author: ["Hanson, Robin"]
+  date: 2001
+  url: https://mason.gmu.edu/~rhanson/aigrow.pdf
+korinek-stiglitz-2019:
+  type: report
+  title: "Artificial Intelligence and Its Implications for Income Distribution and Unemployment"
+  author: ["Korinek, Anton", "Stiglitz, Joseph E."]
+  date: 2019
+  organization: "NBER Working Paper 24174"
+  url: https://www.nber.org/papers/w24174
+chow-halperin-mazlish-2026:
+  type: report
+  title: "Transformative AI, Existential Risk, and Real Interest Rates"
+  author: ["Chow, Trevor", "Halperin, Basil", "Mazlish, J. Zachary"]
+  date: 2026
+  url: https://basilhalperin.com/papers/agi_emh.pdf
+caselli-manning-2019:
+  type: report
+  title: "Robot Arithmetic: New Technology and Wages"
+  author: ["Caselli, Francesco", "Manning, Alan"]
+  date: 2019
+  url: https://cep.lse.ac.uk/pubs/download/dp1497.pdf
+barnett-2025:
+  type: web
+  title: "AGI Could Drive Wages Below Subsistence Level"
+  author: ["Barnett, Matthew"]
+  date: 2025-01
+  url: https://epoch.ai/gradient-updates/agi-could-drive-wages-below-subsistence-level
+smith-2024:
+  type: web
+  title: "Plentiful, High-Paying Jobs in the Age of AI"
+  author: ["Smith, Noah"]
+  date: 2024
+  url: https://www.noahpinion.blog/p/plentiful-high-paying-jobs-in-the
+anthropic-scenarios-2026:
+  type: web
+  title: "Economic Scenarios for Transformative AI"
+  author: ["Korinek, Anton", "Jones, Charles I.", "Sacher", "Cotter", "McCrory"]
+  date: 2026-09
+  url: https://www.anthropic.com/institute/econ-scenarios
+trammell-patel-2025:
+  type: web
+  title: "Capital in the 22nd Century"
+  author: ["Trammell, Philip", "Patel, Dwarkesh"]
+  date: 2025-12
+  url: https://philiptrammell.substack.com/p/capital-in-the-22nd-century
+acemoglu-2024:
+  type: report
+  title: "The Simple Macroeconomics of AI"
+  author: ["Acemoglu, Daron"]
+  date: 2024
+  organization: "NBER Working Paper 32487"
+  url: https://www.nber.org/papers/w32487
+autor-2022:
+  type: report
+  title: "New Frontiers: The Origins and Content of New Work, 1940-2018"
+  author: ["Autor, David", "Chin, Caroline", "Salomons, Anna", "Seegmiller, Bryan"]
+  date: 2022
+  organization: "NBER Working Paper 30389"
+  url: https://www.nber.org/papers/w30389
+guerreiro-2022:
+  type: report
+  title: "Should Robots Be Taxed?"
+  author: ["Guerreiro, Joao", "Rebelo, Sergio", "Teles, Pedro"]
+  date: 2022
+  organization: "NBER Working Paper 23806"
+  url: https://www.nber.org/papers/w23806
+jaimovich-siu-2012:
+  type: report
+  title: "Job Polarization and Jobless Recoveries"
+  author: ["Jaimovich, Nir", "Siu, Henry E."]
+  date: 2012
+  organization: "NBER Working Paper 18334"
+  url: https://www.nber.org/papers/w18334
+dingel-neiman-2020:
+  type: report
+  title: "How Many Jobs Can Be Done at Home?"
+  author: ["Dingel, Jonathan I.", "Neiman, Brent"]
+  date: 2020
+  organization: "NBER Working Paper 26948"
+  url: https://www.nber.org/papers/w26948
+davidson-2026:
+  type: report
+  title: "When Does Automating AI Research Produce Explosive Growth?"
+  author: ["Davidson, Tom", "Halperin, Basil", "Houlden, Thomas", "Korinek, Anton"]
+  date: 2026
+  url: https://basilhalperin.com/papers/singularities.pdf
+leontief-1979:
+  type: article
+  title: "Is Technological Unemployment Inevitable?"
+  author: ["Leontief, Wassily"]
+  date: 1979
+  parent:
+    type: periodical
+    title: Challenge
+    volume: 22
+    issue: 4
+  url: https://cooperative-individualism.org/leontief-wassily_is-technological-unemployment-inevitable-1979-sep-oct.pdf
+
+# ---------------------------------------------------------------- history
+allen-2009:
+  type: article
+  title: "Engels' Pause: Technical Change, Capital Accumulation, and Inequality in the British Industrial Revolution"
+  author: ["Allen, Robert C."]
+  date: 2009
+  parent:
+    type: periodical
+    title: Explorations in Economic History
+    volume: 46
+    issue: 4
+  url: https://www.nuffield.ox.ac.uk/Users/Allen/engelspause.pdf
+allen-2018:
+  type: report
+  title: "The Hand-Loom Weaver and the Power Loom: A Schumpeterian Perspective"
+  author: ["Allen, Robert C."]
+  date: 2017
+  url: https://nyuad.nyu.edu/content/dam/nyuad/academics/divisions/social-science/working-papers/2017/0004.pdf
+olmstead-rhode-2001:
+  type: article
+  title: "Reshaping the Landscape: The Impact and Diffusion of the Tractor in American Agriculture, 1910-1960"
+  author: ["Olmstead, Alan L.", "Rhode, Paul W."]
+  date: 2001
+  parent:
+    type: periodical
+    title: Journal of Economic History
+    volume: 61
+    issue: 3
+  url: https://faculty.econ.ucdavis.edu/faculty/alolmstead/Recent_Publications/Reshaping_the_Landscape.pdf
+census-1975:
+  type: book
+  title: "Historical Statistics of the United States, Colonial Times to 1970, Part 1, Chapter K"
+  author: "U.S. Bureau of the Census"
+  date: 1975
+  url: https://www2.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970/hist_stats_colonial-1970p1-chK.pdf
+lebergott-1966:
+  type: report
+  title: "Labor Force and Employment, 1800-1960"
+  author: ["Lebergott, Stanley"]
+  date: 1966
+  organization: "National Bureau of Economic Research"
+  url: https://www.nber.org/system/files/chapters/c1567/c1567.pdf
+autor-dorn-hanson-2021:
+  type: report
+  title: "On the Persistence of the China Shock"
+  author: ["Autor, David", "Dorn, David", "Hanson, Gordon H."]
+  date: 2021
+  organization: "NBER Working Paper 29401"
+  url: https://www.nber.org/papers/w29401
+scheve-stasavage-2016:
+  type: book
+  title: "Taxing the Rich: A History of Fiscal Fairness in the United States and Europe"
+  author: ["Scheve, Kenneth", "Stasavage, David"]
+  date: 2016
+  publisher: Princeton University Press
+  url: https://press.princeton.edu/books/hardcover/9780691165455/taxing-the-rich
+scheidel-2017:
+  type: book
+  title: "The Great Leveler: Violence and the History of Inequality from the Stone Age to the Twenty-First Century"
+  author: ["Scheidel, Walter"]
+  date: 2017
+  publisher: Princeton University Press
+acemoglu-robinson-2000:
+  type: article
+  title: "Why Did the West Extend the Franchise? Democracy, Inequality, and Growth in Historical Perspective"
+  author: ["Acemoglu, Daron", "Robinson, James A."]
+  date: 2000
+  parent:
+    type: periodical
+    title: Quarterly Journal of Economics
+    volume: 115
+    issue: 4
+  url: https://ideas.repec.org/a/oup/qjecon/v115y2000i4p1167-1199..html
+ross-2015:
+  type: article
+  title: "What Have We Learned about the Resource Curse?"
+  author: ["Ross, Michael L."]
+  date: 2015
+  parent:
+    type: periodical
+    title: Annual Review of Political Science
+    volume: 18
+jones-marinescu-2022:
+  type: report
+  title: "The Labor Market Impacts of Universal and Permanent Cash Transfers: Evidence from the Alaska Permanent Fund"
+  author: ["Jones, Damon", "Marinescu, Ioana"]
+  date: 2018
+  organization: "NBER Working Paper 24312"
+  url: https://www.nber.org/papers/w24312
+alaska-pfd:
+  type: web
+  title: "Summary of Dividend Applications and Payments"
+  author: "Alaska Department of Revenue, Permanent Fund Dividend Division"
+  date: 2026
+  url: https://pfd.alaska.gov/Division-Info/summary-of-dividend-applications-payments
+census-poverty-2023:
+  type: web
+  title: "Poverty in the United States: 2022"
+  author: "U.S. Census Bureau"
+  date: 2023
+  url: https://www.census.gov/library/publications/2023/demo/p60-280.html
+
+# ---------------------------------------------------------------- the present
+bls-empsit-2026:
+  type: web
+  title: "The Employment Situation, October 2026"
+  author: "U.S. Bureau of Labor Statistics"
+  date: 2026-11-06
+  url: https://www.bls.gov/news.release/empsit.nr0.htm
+bls-productivity-2026:
+  type: web
+  title: "Productivity and Costs, Third Quarter 2026, Preliminary"
+  author: "U.S. Bureau of Labor Statistics"
+  date: 2026-11-05
+  url: https://www.bls.gov/news.release/archives/prod2_11052026.htm
+bls-oews-2025:
+  type: web
+  title: "Occupational Employment and Wages, May 2025"
+  author: "U.S. Bureau of Labor Statistics"
+  date: 2026
+  url: https://www.bls.gov/news.release/ocwage.t01.htm
+bls-ecec-2026:
+  type: web
+  title: "Employer Costs for Employee Compensation, June 2026"
+  author: "U.S. Bureau of Labor Statistics"
+  date: 2026
+  url: https://www.bls.gov/news.release/ecec.t04.htm
+treasury-mts-2026:
+  type: web
+  title: "Monthly Treasury Statement, September 2026"
+  author: "U.S. Department of the Treasury"
+  date: 2026-10
+  url: https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/
+canaries-2026:
+  type: report
+  title: "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence"
+  author: ["Brynjolfsson, Erik", "Chandar, Bharat", "Chen, Ruyu"]
+  date: 2026-08
+  url: https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf
+humlum-vestergaard-2026:
+  type: report
+  title: "Still Waters, Rapid Currents"
+  author: ["Humlum, Anders", "Vestergaard, Emilie"]
+  date: 2026-03
+  url: https://www.rfberlin.com/wp-content/uploads/2026/03/26078.pdf
+dallas-fed-2026:
+  type: web
+  title: "Dallas Fed Economics: analysis of employment in AI-exposed industries and occupations"
+  author: "Federal Reserve Bank of Dallas"
+  date: 2026-02-24
+  url: https://www.dallasfed.org/research/economics/2026/0224
+nyfed-survey-2026:
+  type: web
+  title: "Businesses Are Using AI to Transform Work, Not Cut Jobs"
+  author: "Federal Reserve Bank of New York"
+  date: 2026-09-01
+  url: https://libertystreeteconomics.newyorkfed.org/2026/09/businesses-are-using-ai-to-transform-work-not-cut-jobs/
+anthropic-employment-2026:
+  type: web
+  title: "How Employment Is Changing at Anthropic"
+  author: "Anthropic"
+  date: 2026-10-16
+  url: https://www.anthropic.com/research/employment-at-anthropic
+challenger-2026:
+  type: web
+  title: "October Layoffs at Three-Year Low"
+  author: "Challenger, Gray & Christmas"
+  date: 2026-11
+  url: https://www.challengergray.com/blog/october-layoffs-at-three-year-low-seasonal-hiring-plans-up-26/
+metr-horizons-2026:
+  type: web
+  title: "Task-Completion Time Horizons of Frontier AI Models"
+  author: "METR"
+  date: 2026-09-08
+  url: https://metr.org/time-horizons/
+metr-rd-2026:
+  type: web
+  title: "Assessment of AI R&D acceleration at Anthropic"
+  author: "METR"
+  date: 2026-11-05
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+rli-2026:
+  type: web
+  title: "Remote Labor Index: Measuring AI Automation of Remote Work"
+  author: "Center for AI Safety and Scale AI"
+  date: 2026
+  url: https://www.remotelabor.ai/
+gdpx-2026:
+  type: web
+  title: "GDPx: Measuring Frontier Model Capabilities"
+  author: "SemiAnalysis"
+  date: 2026-11-02
+  url: https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities
+anthropic-s1-2026:
+  type: web
+  title: "Amendment No. 2 to Form S-1 Registration Statement"
+  author: "Anthropic PBC"
+  date: 2026-11-10
+  url: https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm
+epoch-agents-2026:
+  type: web
+  title: "Estimating the Agent Population"
+  author: "Epoch AI"
+  date: 2026-10-02
+  url: https://epoch.ai/publications/estimating-the-agent-population
+epoch-price-2026:
+  type: web
+  title: "The Plunging Price of Thought"
+  author: "Epoch AI"
+  date: 2026-09-22
+  url: https://epoch.ai/publications/the-plunging-price-of-thought
+epoch-robots-2026:
+  type: web
+  title: "How Fast Could Robot Production Scale Up?"
+  author: "Epoch AI"
+  date: 2026-04-22
+  url: https://epoch.ai/publications/how-fast-could-robot-production-scale-up
+epoch-autonomy-2026:
+  type: web
+  title: "Where Autonomy Works: Evaluating Robot Capabilities in 2026"
+  author: "Epoch AI"
+  date: 2026-02-10
+  url: https://epoch.ai/publications/where-autonomy-works-evaluating-robot-capabilities-in-2026
+census-btos-2026:
+  type: web
+  title: "Business Trends and Outlook Survey: AI Supplement"
+  author: "U.S. Census Bureau"
+  date: 2026-11-05
+  url: https://www.census.gov/hfp/btos/downloads/National.xlsx
+bick-blandin-deming-2026:
+  type: web
+  title: "Generative AI Adoption Tracker"
+  author: ["Bick, Alexander", "Blandin, Adam", "Deming, David J."]
+  date: 2026-08
+  url: https://genaiadoptiontracker.com/
+executives-2026:
+  type: report
+  title: "Survey of executives at about 9,000 firms in seven countries on AI spending, productivity and employment"
+  author: "NBER Working Paper 34836"
+  date: 2026-10
+  organization: "NBER Working Paper 34836"
+  url: https://www.nber.org/papers/w34836
+agility-2026:
+  type: web
+  title: "Agility Robotics Reports $1.8M Revenue ahead of Humanoid SPAC"
+  author: "The Robot Report"
+  date: 2026-09-07
+  url: https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/
+figure-helix-2026:
+  type: web
+  title: "Helix 2.5: Zero-Shot 30-Home Generalization"
+  author: "Figure AI"
+  date: 2026-09-17
+  url: https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization
+ifr-2026:
+  type: web
+  title: "World Robotics 2026"
+  author: "International Federation of Robotics"
+  date: 2026-09
+  url: https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent
+forethought-2025:
+  type: web
+  title: "The Industrial Explosion"
+  author: ["Davidson, Tom", "Hadshar, Rose"]
+  date: 2025-05-21
+  url: https://www.forethought.org/research/the-industrial-explosion
+fri-2026:
+  type: report
+  title: "Forecasting the Economic Effects of AI"
+  author: "Forecasting Research Institute"
+  date: 2026
+  url: https://forecastingresearch.org/research/economic-effects-of-ai
+aifutures-2026:
+  type: web
+  title: "Timelines update, 10 November 2026"
+  author: "AI Futures Project"
+  date: 2026-11-10
+  url: https://blog.aifutures.org/p/q35-timelines-update-looks-like-the
+ai-2027:
+  type: web
+  title: "AI 2027"
+  author: ["Kokotajlo, Daniel", "Alexander, Scott", "Larsen, Thomas", "Lifland, Eli", "Dean, Romeo"]
+  date: 2025-04
+  url: https://ai-2027.com/
+narayanan-kapoor-2025:
+  type: web
+  title: "AI as Normal Technology"
+  author: ["Narayanan, Arvind", "Kapoor, Sayash"]
+  date: 2025-04-15
+  url: https://knightcolumbia.org/content/ai-as-normal-technology
+drago-laine-2025:
+  type: web
+  title: "The Intelligence Curse"
+  author: ["Drago, Luke", "Laine, Rudolf"]
+  date: 2025-04
+  url: https://intelligence-curse.ai/
+kulveit-2025:
+  type: web
+  title: "Gradual Disempowerment"
+  author: ["Kulveit, Jan", "Douglas, Raymond", "Ammann, Nora", "Turan, Deger", "Krueger, David", "Duvenaud, David"]
+  date: 2025-01
+  url: https://gradual-disempowerment.ai/
+citrini-2026:
+  type: web
+  title: "The 2028 Global Intelligence Crisis"
+  author: "Citrini Research"
+  date: 2026-02-22
+  url: https://www.citriniresearch.com/p/2028gic
+amodei-2026:
+  type: web
+  title: "The Adolescence of Technology"
+  author: ["Amodei, Dario"]
+  date: 2026-01
+  url: https://www.darioamodei.com/essay/the-adolescence-of-technology
+waller-2026:
+  type: web
+  title: "Speech, 10 November 2026"
+  author: ["Waller, Christopher J."]
+  date: 2026-11-10
+  url: https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm
+barr-2026:
+  type: web
+  title: "Speech, 17 February 2026"
+  author: ["Barr, Michael S."]
+  date: 2026-02-17
+  url: https://www.federalreserve.gov/newsevents/speech/barr20260217a.htm
+
+# ---------------------------------------------------------------- policy
+vivalt-2024:
+  type: report
+  title: "The Employment Effects of a Guaranteed Income: Experimental Evidence from Two U.S. States"
+  author: ["Vivalt, Eva", "Rhodes, Elizabeth", "Bartik, Alexander W.", "Broockman, David E.", "Krause, Patrick", "Miller, Sarah"]
+  date: 2024
+  organization: "NBER Working Paper 32719"
+  url: https://www.nber.org/papers/w32719
+altman-2021:
+  type: web
+  title: "Moore's Law for Everything"
+  author: ["Altman, Sam"]
+  date: 2021-03-16
+  url: https://moores.samaltman.com/
+more-in-common-2026:
+  type: web
+  title: "An Unexpected Coalition: National Service and AI Disruption"
+  author: "More in Common"
+  date: 2026
+  url: https://moreincommonus.com/publication/unexpected-coalition-national-service-and-ai-disruption/
+sanders-2026:
+  type: web
+  title: "Sanders Introduces Legislation to Create $7 Trillion AI Sovereign Wealth Fund"
+  author: "Office of Senator Bernie Sanders"
+  date: 2026-06-18
+  url: https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/
+cnbc-openai-stake-2026:
+  type: web
+  title: "OpenAI Proposes US Government Own 5% Stake"
+  author: "CNBC"
+  date: 2026-07-02
+  url: https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html
+ash-center-2026:
+  type: web
+  title: "What the 2026 Midterm Results Mean for Technology Policy"
+  author: "Ash Center, Harvard Kennedy School"
+  date: 2026-11
+  url: https://ash.harvard.edu/articles/what-the-2026-midterm-results-mean-for-technology-policy
+pew-2026:
+  type: web
+  title: "Young Adults in the US Are Increasingly Wary of AI, Concerned It Will Take Jobs"
+  author: "Pew Research Center"
+  date: 2026-08-18
+  url: https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/

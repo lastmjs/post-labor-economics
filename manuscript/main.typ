@@ -32,6 +32,7 @@
 ]
 
 #include "front.typ"
+#include "ch01.typ"
 
 #part-page("I", "The machine we live inside", [
   Before asking what breaks, we need to know how the thing works: what an economy is, how people get their share of it, and why two centuries of machines made workers richer and not poorer.
@@ -39,16 +40,35 @@
 #include "ch02.typ"
 #include "ch03.typ"
 
-// Stubs for chapters not yet written, so that forward references resolve.
-= The premise <ch-premise>
-= Wages <ch-wages>
-= Growth <ch-growth>
-= Distribution <ch-distribution>
-= Residual <ch-residual>
-= Power <ch-power>
-= Policy <ch-policy>
-= Now <ch-now>
-= Two transitions <ch-two-transitions>
-= Speed <ch-speed>
-= Scenarios <ch-scenarios>
-= Belief <ch-belief>
+#part-page("II", "The premise and what follows", [
+  Suppose machines can do every task that people are paid to do. What happens to wages, to production, and to the distribution of what is produced? These chapters reason from the premise alone.
+])
+#include "ch04.typ"
+#include "ch05.typ"
+#include "ch06.typ"
+#include "ch07.typ"
+#include "ch08.typ"
+
+#part-page("III", "Who decides", [
+  The market does not settle who receives the output of a post-labor economy. Power does. These chapters ask where the majority's power has come from, what happens to it, and what could be done with it.
+])
+#include "ch09.typ"
+#include "ch10.typ"
+
+#part-page("IV", "The next ten years", [
+  How much of the premise is true in November 2026, how fast the rest is arriving, six scenarios for the decade to 2036, and what I actually expect.
+])
+#include "ch11.typ"
+#include "ch12.typ"
+#include "ch13.typ"
+#include "ch14.typ"
+#include "ch15.typ"
+
+// ----------------------------------------------------------- appendices ----
+#counter(heading).update(0)
+#set heading(numbering: "A.1")
+#include "appendix_a.typ"
+#include "appendix_b.typ"
+
+#set heading(numbering: none)
+#bibliography("refs.yml", style: "ieee", title: [Sources])

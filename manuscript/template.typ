@@ -22,6 +22,8 @@
   forecast: (prefix: "F", name: "Forecast", color: rgb("#b5451b")),
 )
 
+#let chain = state("chain", ())
+
 #let statement(kind, title, body, from: none, breakable: false) = figure(
   kind: kind,
   supplement: kinds.at(kind).prefix,
@@ -37,6 +39,7 @@
       fill: paper-wash,
       radius: (right: 3pt),
       {
+        chain.update(c => c + ((kind: kind, title: title, from: from),))
         set align(left)
         set par(justify: false)
         text(font: sans, size: 8.2pt, weight: 600, fill: k.color, tracking: 0.4pt)[
@@ -185,7 +188,12 @@
       v(14pt, weak: true)
     } else {
       v(0.55in)
-      if it.numbering != none {
+      if it.numbering == "A.1" {
+        text(font: sans, size: 9.6pt, weight: 600, fill: accent, tracking: 1.1pt)[
+          APPENDIX #counter(heading).display("A")
+        ]
+        v(9pt, weak: true)
+      } else if it.numbering != none {
         text(font: sans, size: 9.6pt, weight: 600, fill: accent, tracking: 1.1pt)[
           CHAPTER #counter(heading).display("1")
         ]
@@ -259,3 +267,22 @@
   ..rows,
   table.hline(stroke: 0.7pt + ink),
 )
+
+// The whole chain, in order, for the appendix.
+#let chain-listing() = context {
+  let counts = (axiom: 0, definition: 0, proposition: 0, forecast: 0)
+  let rows = ()
+  for item in chain.final() {
+    counts.insert(item.kind, counts.at(item.kind) + 1)
+    let k = kinds.at(item.kind)
+    rows.push(text(font: sans, size: 8.4pt, weight: 600, fill: k.color)[#k.prefix#counts.at(item.kind)])
+    rows.push({
+      text(size: 9.6pt, item.title)
+      if item.from != none {
+        text(font: sans, size: 7.6pt, fill: soft)[#h(6pt)← #item.from]
+      }
+    })
+  }
+  set par(justify: false, leading: 0.5em)
+  grid(columns: (30pt, 1fr), row-gutter: 6.5pt, ..rows)
+}
