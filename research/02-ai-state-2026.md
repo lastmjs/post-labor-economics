@@ -5,7 +5,7 @@ Research notes for the post-labor economics guide. Scope: cognitive and digital 
 **How to read the source tags.** Every figure carries a date and a link.
 
 - **[opened]** means I fetched and read that page in this session. Four sources were downloaded and parsed directly rather than read through a page summariser, and are marked **[opened, parsed]**: METR's results file, the Census BTOS spreadsheet, Alphabet's Q3 2026 earnings exhibit on SEC EDGAR, and Anthropic's S-1/A on SEC EDGAR. All other opened pages were read through a fetch tool that summarises the page, so a small transcription risk remains on those numbers.
-- **[secondary]** means the figure is reported by a page I opened that is not the original source (Wikipedia, a news article citing Bloomberg), or it came from a search-result summary whose page I could not open. Where it is search-summary only, I say so.
+- **[secondary]** means the figure is reported by a page I opened that is not the original source (Wikipedia, a news article citing Bloomberg, the AP story as carried by NY1), or it came from a search-result summary whose page I could not open. Where it is search-summary only, I say so.
 - **[memory]** means a well-known figure I did not re-open this session. There are few of these and none is load-bearing.
 
 **Research constraint.** The shared web-search allowance ran out after about fifteen searches, so most of this note was built by fetching known or guessable primary URLs directly (lab pages, EDGAR, Census, METR, Epoch, investor-relations pages). OpenAI's own site and Metaculus refused automated fetches. See "What I could not verify".
@@ -29,7 +29,7 @@ The honest summary is a widening gap: capability and lab revenue are compounding
 
 ## 1. Frontier models: what was released and what each could newly do
 
-Release cadence roughly doubled in 2026. By autumn, every major lab had split its line into a general model and a more capable tier gated behind verification programmes, mainly because of cyber-offence capability.
+Release cadence rose sharply: Anthropic shipped about twice as many models in 2026 as in 2025. By autumn, every major lab had split its line into a general model and a more capable tier gated behind verification programmes, mainly because of cyber-offence capability.
 
 ### Anthropic
 
@@ -63,7 +63,7 @@ What Fable 5.2 is claimed to do (all vendor-reported, 9 Nov 2026, [Anthropic ann
 
 | Date | Model | What was new |
 |---|---|---|
-| Feb 2025 | GPT-4.5 | Largest non-reasoning model; widely read as a disappointment |
+| Feb 2025 | GPT-4.5 | The "Orion" model once intended to become GPT-5 (per The Information, via Wikipedia) |
 | 16 Apr 2025 | o3, o4-mini | Reasoning with tools; 2-hour METR horizon |
 | 7 Aug 2025 | GPT-5 | Unified fast and reasoning models; 3.4-hour METR horizon |
 | Nov – Dec 2025 | GPT-5.1, GPT-5.1-Codex-Max, GPT-5.2 (11 Dec) | 5.9-hour METR horizon for GPT-5.2 |
@@ -86,7 +86,7 @@ Astra's launch claims: it scored 100% on ExploitBench without production safegua
 | 18 Nov 2025 | Gemini 3 Pro | 3.7-hour METR horizon |
 | 19 Feb 2026 | Gemini 3.1 Pro | 6.4-hour METR 50% horizon; best 80% horizon (1.5 hours) among public models until Mythos |
 | 19 May – 2 Sep 2026 | Gemini 3.5, 3.6, 3.7, 3.8 Flash | Rapid Flash iterations; no Gemini 3.5 Pro was ever released |
-| 30 Sep 2026 (general release 13 Oct) | Gemini 4 Argon | Output limit raised from 64K to 1M tokens; DeepSWE v1.1 77.9%; first out to vetted cyber defenders |
+| 30 Sep 2026 (wider release 13 Oct) | Gemini 4 Argon | Output limit raised from 64K to 1M tokens; DeepSWE v1.1 77.9%; first out to vetted cyber defenders |
 | 28 Oct 2026 (general release 10 Nov) | Gemini 4 Carbon | Leads AutomationBench at 53.9% |
 
 Dates: [Wikipedia, Gemini (language model)](https://en.wikipedia.org/wiki/Gemini_(language_model)) [opened; secondary]. Argon: [Google blog, 30 Sep 2026](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?hl=en) [opened]. Google's internal-agent examples in that post include migrating the 800,000-line Fuchsia Zircon C/C++ codebase to Rust.
@@ -134,7 +134,7 @@ Conflict to note: early-2026 coverage gave Opus 4.6 a 14.5-hour horizon; the cur
 - The page was marked "no longer actively updated" on 8 September 2026. No public model after Mythos Preview has a published horizon (METR page [opened]).
 - For GPT-5.6 Sol (evaluated June 2026) METR got three answers depending on how it scored cheating: 11.3 hours (CI 5–40) counting flagged attempts as failures, 71 hours excluding them, and over 270 hours counting them as successes. It regards none as robust, and judged Sol not significantly beyond the existing state of the art ([eWeek, 30 Jul 2026](https://eweek.com/news/openai-sol-agent-benchmark/) [opened]; original at [METR](https://metr.org/blog/2026-06-26-gpt-5-6-sol/) [secondary, not opened]).
 - For Claude Opus 5.5 (September 2026) METR published no horizon. It found incremental improvement over Fable 5.1 and said its data cannot tell whether the rate of improvement is constant, rising or falling ([METR, 22 Sep 2026](https://metr.org/blog/2026-09-22-claude-opus-5-5/) [opened]).
-- A LessWrong commenter noted in February 2026 that the 80% series looked like a return to the older slope after o3, with the 50% and 80% series diverging ([LessWrong, 13 Feb 2026](https://www.lesswrong.com/posts/EYb2K9acKfyG2bome/metr-time-horizons-now-10x-year) [opened]). Mythos Preview's 80% point (3.1 hours, more than double the next best) then put the 80% series back on the fast trend.
+- A LessWrong commenter noted in February 2026 that the 80% series looked like a return to the older slope after o3, with the 50% and 80% series diverging ([LessWrong, 13 Feb 2026](https://www.lesswrong.com/posts/EYb2K9acKfyG2bome/metr-time-horizons-now-10x-year) [opened]). Mythos Preview's 80% point (3.1 hours, more than double the next best) then put the 80% series back on the fast trend (my reading of METR's points).
 - The best substitute measure is Anthropic's internal capability index, on which METR finds progress since October 2025 at 1.9 times the earlier rate (section 6).
 
 ### Whole projects and whole jobs
@@ -153,7 +153,7 @@ Sources: RLI [leaderboard](https://labs.scale.com/leaderboard/rli) [opened] and 
 
 Points worth carrying into the guide:
 
-- RLI rose sixteen-fold in thirteen months, and the newest jump (17.9% to 41.3%) took two months. Even so, the CAIS authors said in July that none of the three Fable 5 deliverables they showcased would be accepted as finished work, and that their automated judge overstated human-graded scores two to three times (CAIS update [opened]).
+- RLI rose sixteen-fold in thirteen months, and the newest jump (17.9% to 41.3%) took about ten weeks. Even so, the CAIS authors said in July that none of the three Fable 5 deliverables they showcased would be accepted as finished work, and that their automated judge overstated human-graded scores two to three times (CAIS update [opened]).
 - On RLI, success does not fall as the human time needed rises, so the time-horizon model does not fit that benchmark (CAIS update [opened]). Time horizon is not a universal law.
 - MirrorCode works because an existing program is a precise, checkable specification. Its authors say it does not show AI can do arbitrary software work (MirrorCode [opened]).
 - GDPval is saturating as a one-shot test. The GDPx authors argue it is inadequate for agents because all context is handed over in the prompt (GDPx [opened]).
@@ -230,7 +230,7 @@ Three things the table hides:
 Rough arithmetic (mine, not a published estimate):
 
 - MirrorCode's toolkit at the stated rate comes to about $150 of tokens for work engineers put at 2 to 17 weeks. At a loaded $100 an hour, 2 weeks of an engineer is $8,000. That is a 50-fold or greater gap, on a task chosen because it is fully specified and machine-checkable.
-- A 2.5M-input, 72K-output attempt on Opus 5.5 costs about $11 uncached and about $2 with cached input, for tasks that take a human expert hours.
+- A 2.5M-input, 72K-output benchmark attempt priced on Opus 5.5 costs about $11 uncached and about $2 if the input is read from cache.
 - Where an agent succeeds on a checkable task, the token cost is typically a few percent of the human cost or less. The binding constraints are the success rate and the human time spent specifying, checking and fixing, not the token bill.
 - The median OpenAI researcher's usage annualises to about $160,000, and the 90th percentile to about $2 million, which Epoch notes is comparable to or greater than the cost of employing the researcher (Epoch, 5 Oct 2026 [opened]). At the frontier of use, agent spending per worker has already reached the scale of a salary.
 
@@ -259,13 +259,13 @@ Rough arithmetic (mine, not a published estimate):
 **OpenAI** (it publishes no audited accounts; [Wikipedia, OpenAI](https://en.wikipedia.org/wiki/OpenAI) [opened; secondary] unless noted):
 
 - 2025 revenue $13.1 billion; operating loss $20.9 billion in 2025 against $8.8 billion in 2024.
-- Run-rate: about $13 billion (Aug 2025), about $20 billion (end-2025), over $25 billion (Feb 2026), over $40 billion (Aug 2026, Bloomberg via [Epoch](https://epoch.ai/gradient-updates/an-update-on-ais-most-important-number) [opened; secondary]). **Conflict:** Axios reported on 29 Sep 2026 that annual recurring revenue was nearing $70 billion, up more than 70% since the start of the third quarter (search summary only; the page refused my fetch [secondary]). I could not reconcile the two.
+- Run-rate: about $13 billion (Aug 2025), about $20 billion (end-2025, [SaaStr](https://www.saastr.com/anthropic-just-passed-openai-in-revenue/) [opened; secondary]), over $25 billion (Feb 2026, The Information, search summary only [secondary]), over $40 billion (Aug 2026, Bloomberg via [Epoch](https://epoch.ai/gradient-updates/an-update-on-ais-most-important-number) [opened; secondary]). **Conflict:** Axios reported on 29 Sep 2026 that annual recurring revenue was nearing $70 billion, up more than 70% since the start of the third quarter (search summary only; the page refused my fetch [secondary]). I could not reconcile the two.
 - The two labs book cloud-channel sales differently: OpenAI records its share, Anthropic records the gross amount, which flatters Anthropic in comparisons (Epoch, same post [opened]).
 - Funding: $40 billion at $300 billion (Apr 2025); $122 billion at $852 billion post-money (closed Apr 2026). Filed for an IPO on 8 Jun 2026; Altman said on 12 Sep 2026 it would not list this year.
 - Users: ChatGPT reached 900 million weekly users in February 2026 ([Wikipedia, ChatGPT](https://en.wikipedia.org/wiki/ChatGPT) [opened; secondary]). Advertising reached a $1 billion run-rate in August 2026.
 - Commitments: about $1.4 trillion for 30 gigawatts ([TechCrunch, 28 Oct 2025](https://techcrunch.com/2025/10/28/sam-altman-says-openai-will-have-a-legitimate-ai-researcher-by-2028/) [opened]); a compute target of about $600 billion by 2030 told to investors in February 2026 (Wikipedia [secondary]).
 
-**Combined.** Epoch puts OpenAI plus Anthropic at about $30 billion run-rate at the start of 2026 and about $105 billion in August, with annual growth multiples of 3.1 (2024), 4.7 (2025) and 7.5 (2026 to date). The whole generative-AI market was estimated at about $175 billion a year in June 2026. Epoch notes $100 billion is about one-thousandth of world output (Epoch, 27 Aug 2026 [opened]).
+**Combined.** Epoch puts OpenAI plus Anthropic at about $30 billion run-rate at the start of 2026 and about $105 billion in August: a 3.5-fold rise in under eight months. Its chart gives growth multiples of 3.1 for 2024, 4.7 for 2025 and an annualised 7.5 for 2026 to date. The whole generative-AI market was estimated at about $175 billion a year in June 2026. Epoch notes $100 billion is about one-thousandth of world output (Epoch, 27 Aug 2026 [opened]).
 
 **Others.**
 
@@ -281,7 +281,7 @@ Rough arithmetic (mine, not a published estimate):
 |---|---|---|---|
 | Amazon | $131.8B | About $220B expected (guidance was about $200B in February). Q3 alone $77.3B | No figure. AWS growth projected above 40% in both 2027 and 2028 |
 | Alphabet | $91.4B (my sum of nine months $63.6B and Q4 $27.9B) | $132.0B in nine months; Q3 alone $51.4B | Not in the release |
-| Microsoft | Not verified for the calendar year | About $170B for calendar 2026 including finance leases; $45.2B in the September quarter; over $50B expected next quarter | Spending to accelerate in the second half of fiscal 2027 |
+| Microsoft | Not verified for the calendar year | About $170B for calendar 2026, as stated on the call; $45.2B in the September quarter including $7.4B of finance leases; over $50B expected next quarter | Spending to accelerate in the second half of fiscal 2027 |
 | Meta | $72.2B | $135–145B (first guidance $115–135B) | Not provided; says it will keep "investing aggressively" |
 
 Sources: [Amazon Q4 2025](https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx) and [Q3 2026](https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx) [opened]; [Alphabet Q3 2026](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm) [opened, parsed]; [Microsoft call](https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1) [opened]; [Meta Q4 2025](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx) and [Q3 2026](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx) [opened].
@@ -289,7 +289,7 @@ Sources: [Amazon Q4 2025](https://ir.aboutamazon.com/news-release/news-release-d
 - The four together come to roughly $710–720 billion in 2026 if Alphabet's fourth quarter matches its third (my arithmetic). For the three with both years opened, 2026 is 1.7 to 2.0 times 2025.
 - Free cash flow has turned negative: Amazon's trailing-twelve-month free cash flow is minus $42.4 billion (Amazon Q3 [opened]); Alphabet's was minus $5.9 billion in Q2 and minus $9.1 billion in Q3 2026 (Alphabet Q3 [opened, parsed]).
 - The build-out is now debt-funded. Hyperscaler dollar bond issuance is projected at about $250 billion in 2026, and AI borrowers account for almost half of long-dated US investment-grade non-financial issuance this year ([CNBC, 12 Nov 2026](https://www.cnbc.com/2026/11/12/ai-credit-debt-bond-markets-pimco.html) [opened], citing Goldman Sachs and PIMCO).
-- All three cloud companies say demand exceeds supply (Microsoft call; Anthropic S-1/A; both [opened]).
+- Supply, not demand, is the stated constraint: Microsoft says customer demand continues to exceed available supply (call [opened]), and Anthropic says it has consistently operated compute-constrained (S-1/A [opened, parsed]).
 
 ### AI investment and US GDP
 
@@ -305,7 +305,7 @@ Sources: [Amazon Q4 2025](https://ir.aboutamazon.com/news-release/news-release-d
 
 The series has three wordings, and they are not comparable with each other.
 
-1. **Until November 2025:** use of AI "in producing goods or services". About 4–5% of firms in late 2023, about 10% in late 2025 ([Minneapolis Fed, 29 May 2026](https://www.minneapolisfed.org/article/2026/ai-adoption-in-business-grows-steadily-but-unevenly) [opened]).
+1. **Until November 2025:** use of AI "in producing goods or services". Roughly 3–5% of firms in late 2023 (Simon Willison's chart of the Census data, linked below [opened; secondary]) and about 10% in late 2025 ([Minneapolis Fed, 29 May 2026](https://www.minneapolisfed.org/article/2026/ai-adoption-in-business-grows-steadily-but-unevenly) [opened]).
 2. **From November 2025:** use "in any of its business functions".
 3. **From collection starting 19 October 2026:** the same question with "Super Intelligence or SI (formerly referred to as Artificial Intelligence or AI)", following Executive Order 14434 of 29 September 2026 ([White House](https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/) [opened]; [Simon Willison, 2 Nov 2026](https://simonwillison.net/2026/nov/2/census-bureau-super-intelligence) [opened]).
 
@@ -342,7 +342,7 @@ National share answering yes, from the [Census BTOS national file](https://www.c
 
 Sources: [tracker](https://genaiadoptiontracker.com/) [opened]; [Fed note](https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html) [opened]; [Gallup](https://www.gallup.com/workplace/712736/organizational-adoption-jumps-six-points.aspx) [opened]; [Pew](https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/) [opened]; [Epoch](https://epoch.ai/data-insights/near-daily-ai-use-doubled) [opened].
 
-The pattern across these surveys: the share of workers who use AI at all has stalled at around 40–50%, while intensity among users is rising fast. The 5.3% of work hours figure is the single best number for how far AI has actually reached into work.
+The pattern across these surveys: the share of workers who use AI at all is somewhere between 40% and 52% depending on the question, and on the one survey with a consistent series it barely moved between November 2025 (40.7%) and August 2026 (40.5%), while intensity among users is rising fast. (The tracker's own text also mentions "about 44%" in a comparison with PC adoption, so treat the flat reading with some caution.) The 5.3% of work hours figure is the single best number for how far AI has actually reached into work.
 
 ### Realised productivity
 
@@ -431,7 +431,7 @@ Sources: [Jan 2026 clarification](https://blog.aifutures.org/p/clarifying-how-ou
 Came true or roughly so:
 
 - AI 2027's qualitative picture for 2025–early 2026: coding agents transforming professional work; unreliable but useful agents; labs focusing AI on AI research ([grading post, Feb 2026](https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions) [opened]; [third-party tracker, 9 Nov 2026](https://ai2027-tracker.com/predictions/) [opened]).
-- "A leading AI company reaches $45 billion annual revenue by end-2026": beaten (Anthropic run-rate $81 billion).
+- "A leading AI company reaches $45 billion annual revenue by end-2026": beaten on a run-rate basis (Anthropic, $81 billion).
 - METR horizon doubling about every four months from 2024: held through April 2026.
 - An AI R&D progress multiplier of 2 times by late 2026: METR's estimate is about 2 times overall, 1.7 times attributable to AI.
 - OSWorld above 80% by early 2026 and about $400 billion of annual data-centre spending: marked confirmed by the tracker.
@@ -444,7 +444,7 @@ Did not come true:
 - China centralising its AI effort by mid-2026: no sign of it (Aug 2026 update [opened]).
 - A leading US lab holding a 3–9 month lead: the top labs are roughly level (grading post [opened]).
 - OpenAI's 2026 IPO: postponed to 2027.
-- Mass white-collar job loss: US unemployment was 4.1% in October 2026 ([CNBC, 6 Nov 2026](https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html) [opened]).
+- Not yet visible, though still inside its stated window: Amodei's one-to-five-year warning about entry-level white-collar jobs. US unemployment was 4.1% in October 2026 ([CNBC, 6 Nov 2026](https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html) [opened]).
 - Lengthened-timeline forecasts made in 2025 by the AI 2027 authors themselves: reversed within a year.
 
 ---
@@ -505,13 +505,13 @@ Did not come true:
 
 The obvious story is "capability is exploding, so the economy is about to be transformed". Each of these complicates it.
 
-1. **The labs are racing ahead of the economy, not with it.** Anthropic's revenue grew thirteen-fold in a year while the share of US firms using AI rose from 17% to 24% and executives measured 0.2% a year of productivity. Three-quarters of Anthropic's revenue comes from under 12,000 customers. So far this is a story about a narrow set of intensive users, above all software teams.
-2. **Breadth of use has stalled while depth grows.** Work use of generative AI was 40.7% of workers in November 2025 and 40.5% in August 2026. Only 5.3% of work hours involve it. Diffusion to the other half of the workforce is not following automatically from better models.
+1. **The labs are racing ahead of the economy, not with it.** Anthropic's revenue grew thirteen-fold in a year while the share of US firms using AI rose from 17% to 24% and executives measured 0.2% a year of productivity. Three-quarters of Anthropic's revenue comes from about 12,000 customers. So far this is a story about a narrow set of intensive users, above all software teams.
+2. **Depth is growing faster than breadth.** On the Bick–Blandin–Deming series, work use of generative AI was 40.7% of workers in November 2025 and 40.5% in August 2026, and only 5.3% of work hours involve it. Diffusion to the other half of the workforce is not following automatically from better models.
 3. **Fifty-percent success is not employability.** The headline horizon is a coin-flip. At 80% the horizon is five to six times shorter, maintainers reject about half of test-passing code, and half of business-automation test cases fail. An employer needs something closer to 99%.
 4. **The cheapest thing is tokens; the dear thing is checking.** Where tasks are machine-verifiable, agents already cost a small fraction of human labour and do weeks of work. Where they are not, pass rates are near zero. The frontier of automation may be set by how verifiable a job is rather than how hard it is.
 5. **Prices per token fall, bills rise.** Constant-capability prices fall about tenfold a year, but the frontier tier got dearer, and heavy users now spend salary-scale sums on agents. "Intelligence too cheap to meter" is not what the spending data show.
 6. **The strongest acceleration evidence is thin.** METR's 2-times finding comes from one company, with the most informative evidence redacted by that company, a range of 1.3 to 3, and 1.4 across the industry. Forecasters moved their medians by years on it within days.
-7. **Forecasts are unstable in both directions.** The AI 2027 authors lengthened their timelines by two to four years during 2025, then shortened them by one to seven years in late 2026. That is a reason to hold any date loosely, including the short ones.
+7. **Forecasts are unstable in both directions.** The AI 2027 authors lengthened their timelines by two to four years during 2025, then shortened them by three to six years in late 2026. That is a reason to hold any date loosely, including the short ones.
 8. **The benchmarks that showed the fastest progress are the ones that broke.** Saturation and cheating mean the public can no longer check frontier claims on the main yardstick, at the moment the claims became most consequential.
 9. **Capability is increasingly withheld.** The best models are gated for cyber and biology reasons, deliberately capped on AI-R&D skills, and delayed after incidents. Safety constraints, politics and security failures are now real brakes on deployment, separate from what the technology can do.
 10. **The financing can fail before the technology does.** The build-out is debt-funded, free cash flow at Amazon and Alphabet is negative, long rates are above 5%, a single company has $895 billion of commitments against $33 billion of nine-month revenue, and one scandal removed the chief executive of the industry's key supplier. A funding crunch would slow deployment regardless of capability.

@@ -607,7 +607,7 @@ Roughly 615,000–645,000 people have been paid each year since 2008 **[opened]*
 
 Sources: Wikipedia, "Nauru" https://en.wikipedia.org/wiki/Nauru and "Economy of Nauru" https://en.wikipedia.org/wiki/Economy_of_Nauru **[opened: Wikipedia]**
 
-- Phosphate rent made Nauru one of the richest countries per head in the 1970s; GDP peaked in 1981 **[opened; the "richest in the world" claim is flagged as unsourced on the page]**.
+- Phosphate rent made Nauru one of the richest countries per head in the 1970s; GDP peaked in 1981 **[opened; the page's stronger claim, that it was the world's richest per head, is flagged there as unsourced]**.
 - About 80% of the island's surface was strip-mined; primary deposits were essentially gone by 2000 **[opened]**.
 - The national trust fell from A$1.3 billion (1991) to A$138 million (2002) after failed investments, including a London musical; hotels and office towers were sold to pay debts; the national bank failed in 2006 **[opened]**.
 - Aftermath: unemployment about 90% in 2004 and 23% later; the government employs 95% of those with jobs; obesity 71.7%; type 2 diabetes above 40%; male life expectancy 60.6 years (2009) **[opened]**.
