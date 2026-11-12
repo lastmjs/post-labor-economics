@@ -927,3 +927,40 @@ Reliability notes:
 11. **Elites have sometimes shared without being forced.** Lizzeri & Persico's reading of Victorian Britain, Bismarck's peacetime insurance, and neutral Sweden all show welfare states arising without mass war. And unlike 1832, universal suffrage already exists.
 12. **Speed cuts both ways.** Half of US adults adopted generative AI in three years, far faster than the PC or internet, yet it touched under 6% of work hours. Every earlier production technology took decades to restructure work. Against that, states have shown they can act in two weeks and re-tool an economy in four years.
 13. **Fast policy has been temporary policy.** The 2020–21 income support was the largest and quickest in US history and was allowed to lapse within two years, with child poverty more than doubling. Speed of response and durability of response are separate questions.
+
+## Addendum: cases added during revision
+
+The following cases are cited in chapters 10 and 12 of the guide and were not part
+of the original research for this note. They are stated from the lead author's
+memory of the standard accounts and were **not re-opened** on 12 November 2026.
+Each should be checked at a source before being relied on.
+
+- **Russian voucher privatization, 1992–94** [memory]. Every citizen received a
+  voucher with a face value of 10,000 roubles, exchangeable for shares in
+  enterprises being privatized. Many holders sold their vouchers for cash within
+  months, often for very little, and control of the privatized firms ended up
+  largely with managers and a small number of financial groups. The guide uses
+  the case to show that a property claim which can be sold does not by that fact
+  stay widely held.
+- **Private pension accounts taken into public budgets** [memory]. Argentina
+  nationalized its private pension funds in 2008; Hungary moved most assets of
+  its mandatory private pension pillar to the state in 2010–11; Poland
+  transferred the government-bond holdings of its private pension funds to the
+  state system in 2014. In each case ordinary state pension benefits continued
+  to be paid. The guide uses these to show that individually owned accounts are
+  not immune from a government in a fiscal squeeze.
+- **Alaska, 2016–18** [memory]. Governor Bill Walker, who vetoed about half of
+  the 2016 dividend appropriation, suspended his campaign for re-election in
+  October 2018 and did not serve a second term. The guide says only that he
+  "did not win another term". The dividend was only one of the issues in that
+  campaign.
+- **US manufacturing workweek** [memory]. Average weekly hours in US
+  manufacturing fell from roughly 59 in 1900 to about 40 by the early 1940s; the
+  Fair Labor Standards Act of 1938 set the standard week at 40 hours from 1940.
+- **Where displaced routine workers went, 1980–2010** [memory]. Autor and Dorn,
+  "The Growth of Low-Skill Service Jobs and the Polarization of the US Labor
+  Market", American Economic Review 103(5), 2013: workers without a college
+  degree shifted out of routine production and clerical occupations and into
+  low-skill service occupations. The guide says only that they "moved mostly
+  into lower-paid service work"; it makes no claim about what happened to wages
+  in those occupations.

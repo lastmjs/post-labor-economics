@@ -70,15 +70,15 @@ This family has an appealing property: it does not require agreeing on who deser
 
 == What makes a claim last
 
-If @h-leverage is right, the hardest question about any of these is whether it survives after the majority's leverage has gone. The record of what has lasted, and what has not, suggests an answer.
+If @h-leverage is right, the hardest question about any of these is whether it survives after most of the majority's leverage has gone. The record of what has lasted, and what has not, suggests an answer.
 
-Social Security has lasted ninety years as an ordinary law, with no property right behind it. Alaska's dividend has been paid every year for forty-four years, and a governor who cut it in 2016 did not win another term; but since a court ruling in 2017 its _amount_ has been set by the legislature each year, and the 2025 payment of \$1,000 was among the smallest ever in what it would buy @alaska-pfd @notes-history. The expanded child credit of 2021 lasted one year. When Russia and other countries gave every citizen shares in privatized industry in the 1990s, most people sold them cheaply within a few years and ownership ended up more concentrated than before. Several governments have seized private pension accounts in a budget crisis while leaving ordinary benefits alone. And protected occupations have held their privileges for generations.
+Social Security has lasted ninety years as an ordinary law, with no property right behind it. Alaska's dividend has been paid every year since 1982, and a governor who cut it in 2016 did not win another term; but since a court ruling in 2017 its _amount_ has been set by the legislature each year, and the 2025 payment of \$1,000 was among the smallest ever in what it would buy @alaska-pfd @notes-history. The expanded child credit of 2021 lasted one year. When Russia gave every citizen a voucher for shares in privatized industry in the early 1990s, most people sold theirs cheaply within months, and ownership ended up in few hands. Argentina in 2008, Hungary in 2010 and Poland in 2014 each took private pension accounts into the public budget in a fiscal squeeze, while leaving ordinary pension benefits in place. And protected occupations have held their privileges for generations.
 
 Legal form, then, is not what decides it. What the durable arrangements share is a set of features.
 
-#proposition([What makes a claim last], from: [@h-leverage, @p-window])[
-  A claim on the output of the machine economy is more likely to outlast the majority's leverage when it is _universal_, so that nearly every voter holds it; _automatic_, so that it is paid by formula and does not have to be voted again; _visible_, so that each holder knows what they have and would notice its loss; and _costly to reverse_, in law and in politics. A share in a public fund that cannot be sold, with the dividend set by formula, has all four. An emergency payment has none.
-] <p-durable>
+#hypothesis([What makes a claim last])[
+  A claim on the output of the machine economy is more likely to outlast the majority's leverage when it is _universal_, so that nearly every voter holds it; _automatic_, so that it is paid by formula and does not have to be voted again; _visible_, so that each holder knows what they have and would notice its loss; and _costly to reverse_, in law and in politics. A share in a public fund that cannot be sold, with the dividend set by formula, has all four. An emergency payment has none. _This is a generalization from the handful of cases above and not a deduction. My confidence: about two in three. If it is wrong, the ranking that follows is wrong with it, and timing (@p-window) is the only guide left._
+] <h-durable>
 
 This ranks the four families differently from how they rank on ease. Ownership held in common and paid out by formula comes first. Entitlements that switch on automatically, such as unemployment benefits tied to the unemployment rate, come second. Annual appropriations and one-time payments come last. Reserved jobs are a special case: they last well, but only for their holders.
 
@@ -97,6 +97,6 @@ No single one of these is sufficient, and any real response will combine them. T
 #checkpoint[
   - There are four families of response: keep jobs by rule, pay transfers, spread ownership, or lower the cost of what people need.
   - Job protection buys time at a cost, leaks through competition, and lasts only for its holders. Transfers are affordable and fragile. Ownership requires very large sums, which can only come from a share of future growth. Cheaper essentials help everyone and collide with protected jobs.
-  - Claims last when they are universal, automatic, visible and costly to reverse (@p-durable), and the time to create them is early (@p-window).
-  - This completes the argument from first principles. Everything so far has been conditional on the premise. Part IV asks how much of the premise is true today, how fast the rest is arriving, and what the United States is likely to do about it.
+  - Claims last when they are universal, automatic, visible and costly to reverse (@h-durable), and the time to create them is early (@p-window).
+  - The chain of deduction ended with @p-affordable in the last chapter, and the judgment about durability in this one is a hypothesis drawn from history. This completes the argument from first principles. Everything so far has been conditional on the premise. Part IV asks how much of the premise is true today, how fast the rest is arriving, and what the United States is likely to do about it.
 ]

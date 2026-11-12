@@ -14,9 +14,9 @@ The question was: once AI automates mental and physical labor entirely, what hap
 
 *It keeps producing, more than it ever has, and the wage stops carrying what it produces to most people.*
 
-That sentence has three parts, and I hold them with different degrees of confidence.
+Behind that sentence are three claims, and I hold them with different degrees of confidence.
 
-_The wage comes loose from the economy's growth._ Once a machine can do a piece of work, nobody will pay a person more for it than the machine costs to hire (@p-ceiling). The wage is then set by the supply of machines and stops rising with output (@p-share-zero). Output goes on growing, and it goes to whoever owns the machines, the land, the energy and the legal rights that production still depends on. The share that reaches people as pay shrinks toward the part of spending that buyers choose to direct to a person because they want a person, which I put at between a twentieth and a quarter of the total (@h-residual). I hold this part with about 95 percent confidence, _given the premise_. It is closer to arithmetic than to prediction, and it is enough to end the wage as the way most people receive their share.
+_The wage comes loose from the economy's growth._ Once a machine can do a piece of work, nobody will pay a person more for it than the machine costs to hire (@p-ceiling). The wage is then set by what it takes to supply machines and no longer rises in step with output (@p-share-zero). Output goes on growing, and it goes to whoever owns the machines, the land, the energy and the legal rights that production still depends on. The share that reaches people as pay shrinks toward the part of spending that buyers choose to direct to a person because they want a person. I hold this part with about 95 percent confidence, _given the premise_. It is closer to arithmetic than to prediction, and it is enough to end the wage as the way most people receive their share. How large that remaining part of spending will be is a separate and much less certain matter: I put it at between a twentieth and a quarter of the total, with about two chances in three (@h-residual).
 
 _The economy does not seize up for lack of customers._ Production turns to serve those who have income, and to building more machines (@p-no-paradox). A slump during the transition is likely. A permanent one is not. About five chances in six.
 
@@ -28,7 +28,7 @@ What happens next is not economics. Providing material security for every person
 
 == The next ten years: what I expect
 
-I do not think the premise becomes fully true by 2036. For all work, mental and physical, I give it about three chances in five by 2045 (@ch-premise). I think it becomes true for most mental work around the end of this decade, is put into practice over the following ten years, and begins to become true for physical work as the decade ends. So the next ten years are the transition, and my central expectation for them is the scenario I called the squeeze. Here is that expectation in order, with the caveat that the dates are the softest part.
+I do not think the premise becomes fully true by 2036. For all work, mental and physical, I give it about three chances in five by 2045 (@f-premise). I think it becomes true for most mental work around the end of this decade, is put into practice over the following ten years, and begins to become true for physical work in the early 2030s. So the next ten years are the transition, and my central expectation for them is the scenario I called the squeeze. Here is that expectation in order, with the caveat that the dates are the softest part.
 
 *2027.* Capability keeps climbing. Agents handle projects that take a person weeks, and using a computer the way a person does becomes reliable. Inside the AI companies, most engineering is done by machines. The revenue of the leading laboratories passes a quarter of a trillion dollars a year. Outside, the pattern of 2026 intensifies: firms hire few beginners into office work, the young unemployed and underemployed graduate becomes a fixture of the news, and average statistics stay calm. The financing of the build-out comes under strain, and some of the weaker builders of data centers fail. The new Congress holds hearings and passes little.
 
@@ -44,18 +44,18 @@ In 2036, on this path, the United States is not a post-labor economy. Machines d
 
 == Ten beliefs, with my confidence in each
 
-These restate the hypotheses and forecasts of the earlier chapters in one place. Where a number appears here and there, it is the same number.
+These restate the hypotheses and forecasts of the earlier chapters in one place. Where a number appears both here and in an earlier chapter, it is the same number.
 
-+ *Under the premise, the wage comes loose from growth.* Labor's share of income falls toward the small share of spending that buyers direct to people as people, while output rises (@p-share-zero). (95 percent, given the premise.)
++ *Under the premise, the wage comes loose from growth.* Labor's share of income falls toward the share of spending that buyers direct to people as people, while output rises (@p-share-zero). (95 percent, given the premise.)
 + *Where machines are plentiful, work stops paying for a life.* (@h-upkeep: 90 percent for mental work; 75 percent for physical work by 2040.)
-+ *The economy does not collapse for lack of customers.* Production turns to serve those with income, and to investment (@p-no-paradox). (About 85 percent.)
++ *The economy does not collapse for lack of customers.* Production turns to serve those with income, and to investment (@p-no-paradox). (About five chances in six.)
 + *The premise will come true for nearly all mental work.* By the end of 2032, machines will be able to do at least nine tenths of screen-based tasks (@f-capability). (80 percent.)
-+ *Mental work goes first and physical work has about a decade's grace.* Robots will be doing less than 15 percent of American physical work in 2036. (75 percent.)
++ *Mental work goes first and physical work has about a decade's grace.* Robots and driverless vehicles will be doing less than 15 percent of American physical work in 2036. (75 percent.)
 + *The transition will be revealed by a recession and a jobless recovery.* It will not look like a steady rise in unemployment. Whenever the next recession comes, office employment will not come back from it (70 percent). The chance that this has already happened by the end of 2032 is a little under one in two (@f-recession).
 + *The United States will respond faster than it did to earlier shocks, and inadequately.* Faster, because the first to be hurt are the professional class. Inadequately, because the measures that come most naturally, checks, extensions and protected jobs, are either short-lived or narrow. As a test: no federal payment to all adults worth \$3,000 a year exists in 2036 (@f-policy). (85 percent.)
 + *Jobs will outlast the need for them.* Societies will keep paid positions in existence by law and custom for many years after machines could fill them, because a job is how income, standing and routine are handed out. Employment statistics will understate how much work machines are doing. (80 percent.)
 + *By 2036 the transition will be under way and unfinished.* Most people aged 25 to 54 will still have jobs, and the economy will have grown at an average of between 2.5 and 7 percent a year. (65 percent.)
-+ *The outcome that matters is decided by who holds a lasting claim on the machine economy, in a window that is open now and closes over the next ten to fifteen years.* If ordinary people hold a claim that is universal, automatic, visible and hard to reverse (@p-durable) by the time robots arrive in force, a good end state is likely. If they hold only benefits that must be voted again each year, it is much less likely. I put the chance that the United States establishes such a claim on a meaningful scale at 12 percent by 2036 and about one in four by 2040.
++ *The outcome that matters is decided by who holds a lasting claim on the machine economy, in a window that is open now and closes over the next ten to fifteen years.* If ordinary people hold a claim that is universal, automatic, visible and hard to reverse (@h-durable) by the time robots arrive in force, a good end state is likely. If they hold only benefits that must be voted again each year, it is much less likely. I put the chance that the United States establishes such a claim on a meaningful scale at 12 percent by 2036 and about one in four by 2040 (@f-policy).
 
 == Where I am least sure
 
@@ -71,7 +71,7 @@ These restate the hypotheses and forecasts of the earlier chapters in one place.
 
 == After 2036
 
-The second transition, the automation of physical work, is the one that ends the wage economy (@ch-two-transitions). On my central path it runs from the early 2030s into the 2040s. By about 2045 I think it more likely than not, about three chances in five, that the premise is close to fully true in the United States for any work a buyer does not specifically want from a person.
+The second transition, the automation of physical work, is the one that ends the wage economy (@ch-two-transitions). On my central path it runs from the early 2030s into the 2040s. By about 2045 I think it more likely than not, about three chances in five (@f-premise), that the premise is close to fully true in the United States for any work a buyer does not specifically want from a person.
 
 What that society looks like turns on the last of the ten beliefs. If a broad ownership claim exists, the dividend grows with the machine economy, the share of people who work for pay keeps falling and it matters less each year, and the residual human economy of @ch-residual, people doing things for one another because they wish to, becomes the main arena of ordinary ambition. If it does not exist, the default is the rentier economy: an owning class of perhaps a tenth of households, a population supported at a modest level by transfers that are perpetually contested, a large number of protected and ceremonial jobs, and cheap goods. I think the second is the more likely of the two, by perhaps three to two once the years after 2040 are counted, and that the difference between them will be settled mostly by decisions taken in the next fifteen years.
 
@@ -97,7 +97,7 @@ For anyone thinking about what will hold value: @p-rents says income moves to wh
 
 For anyone choosing work for the next decade: the work that lasts longest is physical work in unstructured settings, work where the person is the point, and work where someone must answer for the outcome.
 
-For citizens: by @p-window, the leverage of the majority is greater now than it will be at any later date. The measures worth that leverage are the durable ones of @p-durable: ownership stakes held for the public, and benefits that operate by formula. A country that spends the next decade arguing about whether the machines are coming, and then meets the recession with temporary checks, will have used up its window.
+For citizens: by @p-window, the leverage of the majority is greater now than it will be at any later date. The measures worth that leverage are the durable ones of @h-durable: ownership stakes held for the public, and benefits that operate by formula. A country that spends the next decade arguing about whether the machines are coming, and then meets the recession with temporary checks, will have used up its window.
 
 For those who own and build the machines: the cheapest insurance ever offered against the politics of dispossession is on the table (@p-affordable). History suggests it is usually declined until late.
 

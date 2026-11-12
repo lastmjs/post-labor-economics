@@ -42,7 +42,7 @@ The three provisos matter. A machine that is only slightly cheaper than the work
 
 The shirt example shows the mechanism in miniature, and the conditions on which it depends. I think they are also the best reading of the historical record.
 
-#proposition([When automation raises wages], from: [@p-bottleneck])[
+#proposition([When automation raises wages], from: [@p-bottleneck, @a-generality])[
   The mechanism of @p-bottleneck lifts the pay of workers in general when three conditions hold together.
   + *Something is left.* There remain tasks that only people can do.
   + *What is left is needed.* Those tasks are complements to what the machines produce, so demand for them grows as machine output grows.

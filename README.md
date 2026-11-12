@@ -7,11 +7,11 @@ A first-principles guide to one question:
 **Read the guide: [`dist/post-labor-economics.pdf`](dist/post-labor-economics.pdf)**
 
 The guide builds its answer as a chain of numbered statements. Eight axioms about
-how any market economy works, and five hypotheses whose odds are stated, lead step
-by step to twenty-six propositions about what happens to wages, production, the
+how any market economy works, and six hypotheses whose odds are stated, lead step
+by step to twenty-five propositions about what happens to wages, production, the
 distribution of income and political power when machines can do all the work.
 Each proposition names the statements it rests on. The guide then looks at the
-evidence as of November 2026, makes six dated forecasts, sets out six scenarios
+evidence as of November 2026, makes seven dated forecasts, sets out six scenarios
 for 2026–2036 with probabilities, and ends with the author's best guess.
 
 The short answer: **the economy does not break; the wage does, and the wage was
@@ -21,7 +21,8 @@ replaces that channel is a political choice, and the time to make it is during
 the transition.
 
 The draft was put through two independent reviews, one of its logic and one of
-its facts, and revised against both. What the reviews could not settle is stated
+its facts, revised against both, and then read once more in full by a third
+reviewer. What the reviews could not settle is stated
 in the text as a hypothesis or a forecast with a probability, and not as a
 conclusion.
 

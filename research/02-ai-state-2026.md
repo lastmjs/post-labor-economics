@@ -214,7 +214,7 @@ Three things the table hides:
 - Epoch AI (12 Mar 2025): between 9 and 900 times per year depending on the capability threshold; 40 times per year for GPT-4-level performance on PhD-level science questions. Epoch warns the fastest declines are recent and may not persist ([Epoch](https://epoch.ai/data-insights/llm-inference-price-trends) [opened]).
 - Sam Altman (Feb 2025): about 10 times every 12 months ([Three Observations](https://blog.samaltman.com/three-observations) [opened via blog index]).
 - 2026 evidence from launch materials: Fable 5.2 at low effort matches Opus 5.5 at maximum effort on Humanity's Last Exam for under a tenth of the cost, seven weeks apart ([Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2) [opened, vendor-reported]).
-- I found no 2026 update of the Epoch or a16z measurement. The 2026 list prices above are consistent with roughly 10 times a year for small models and 3–4 times a year at the flagship tier (my reading).
+- I found no 2026 update of the Epoch or a16z measurement. (Editor's note: research note 09 did open one, Epoch's "The Plunging Price of Thought", 22 September 2026, which gives about 13 times a year at fixed benchmark performance. The guide's "about tenfold a year" rests on that.) The 2026 list prices above are consistent with roughly 10 times a year for small models and 3–4 times a year at the flagship tier (my reading).
 
 ### Tokens per task and the cost of an hour of human-equivalent work
 

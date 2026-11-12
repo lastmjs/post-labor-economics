@@ -28,21 +28,21 @@ The model is described in #link(<app-models>)[Appendix A]. Its job is consistenc
   caption: [The six scenarios in 2036. Machine shares, defined as in @ch-speed, are the scenario's assumptions. The last three columns are outputs of the accounting model, with growth given as the average for the decade. \*In "Shared dividend" a shorter working week spreads the same hours over more people, so the employment rate would be higher than shown.],
 ) <tab-scenarios>
 
-One property of the model has to be stated plainly, because it limits what the table can show. The model assumes that while people are still needed for some tasks, the pay of those in work keeps pace with output per person. That is the first of the two regimes in @p-cliff, the one in which the remaining human tasks are the bottleneck. So the model shows displacement as fewer people in work and a smaller share of income going to work, and it cannot show a fall in the pay of those who still have jobs. In it, those still in work in 2036 are paid about 9 percent more than they would have been without AI in The squeeze, and about 30 percent more in Rentier drift. In every scenario the total paid for work stays within a tenth of what it would have been without AI, which is also what the published scenarios find. For the first three rows of the table I think that is the right description of the decade. For Rentier drift and Takeoff, in which machines do most of the work by 2036, it is too kind: by then the wage ceiling of @p-ceiling would be pressing on much of the remaining work, and the figures for labor's share in those two rows should be read as upper limits.
+One property of the model has to be stated plainly, because it limits what the table can show. The model assumes that while people are still needed for some tasks, the pay of those in work keeps pace with output per person. That is the first of the two regimes in @p-cliff, the one in which the remaining human tasks are the bottleneck. So the model shows displacement as fewer people in work and a smaller share of income going to work, and it cannot show a fall in the pay of those who still have jobs. In it, those still in work in 2036 are paid about 9 percent more than they would have been without AI in The squeeze, and about 30 percent more in Rentier drift. In every scenario the total paid for work stays within a tenth of what it would have been without AI, which is also what the published scenarios find. For Slow diffusion, The squeeze, Shared dividend and The brake I think that is the right description of the decade. For Rentier drift and Takeoff, in which machines do most of the work by 2036, it is too kind: by then the wage ceiling of @p-ceiling would be pressing on much of the remaining work, and the figures for labor's share in those two rows should be read as upper limits.
 
-== 1. Slow diffusion
+== Slow diffusion
 
 _AI turns out to be a normal technology, and normal technologies take decades._
 
 *What has to be true.* Either capability stops short of the premise, with reliability, judgment and learning on the job proving much harder than the trend suggests, or capability arrives and the ordinary frictions of organizations, liability and regulation hold adoption to the pace of electricity and the tractor.
 
-*How it unfolds.* The investment boom ends in a bust around 2027 or 2028, and this time the bust does damage to the frontier: the laboratories cannot fund the next generation of systems. AI settles in as a very good tool. Programmers, analysts and writers use it all day and produce more. Firms adopt it over twenty years. Employment in a few occupations shrinks, as it did for typists and travel agents, and others grow. In 2036 the economy is a few percent larger than it would have been and the arguments of this guide read as premature.
+*How it unfolds.* The investment boom ends in a bust around 2027 or 2028, and this time the bust does damage to the frontier: the laboratories cannot fund the next generation of systems. AI settles in as a very good tool. Programmers, analysts and writers use it all day and produce more. Firms adopt it over twenty years. Employment in a few occupations shrinks, as it did for typists and travel agents, and others grow. In 2036 the economy is about one percent larger than it would have been and the arguments of this guide read as premature.
 
 *For and against.* This is what almost every official forecaster expects, and by their own measures they have been right so far @notes-landscape. The economist Daron Acemoglu puts the total gain at about 1 percent of output over a decade @acemoglu-2024, and the scholars who coined the phrase "normal technology" make the case from the history of diffusion @narayanan-kapoor-2025. Against the first version stands the capability record of @ch-now: progress has been fast for seven years on every measure that has not been outgrown, and this scenario needs it to stop short within a few years. Against the second stands the size of the cost gap. The squeeze already assumes that adoption takes about a decade (@h-lag). This scenario needs it to take two or three times as long, in an economy where a new firm can be built around machine labor from its first day.
 
 *My probability: 15 percent.*
 
-== 2. The squeeze
+== The squeeze
 
 _The machines arrive for mental work at the speed of diffusion, and the United States responds late and in pieces._
 
@@ -56,25 +56,25 @@ Washington responds the way it usually does. Unemployment benefits are extended,
 
 *In 2036.* Machines do about half of what was screen-based work and a tenth of physical work. Three quarters of people aged 25 to 54 are in work, down from four fifths. Labor's share of income is 47 or 48 percent. Total pay has roughly kept pace with a no-AI economy, but it is shared among fewer people and the premium for education has shrunk. Those who have jobs are, on average, paid somewhat better than they would have been. The economy has grown a little over 3 percent a year. Robots are being built by the million, and everyone can see what comes next. The country is about a quarter of the way through the transition, and has not decided who will own the result.
 
-*For and against.* This scenario is the direct application of @h-lag, which is the rule the evidence supports. Its technological assumptions are my median forecasts. Its political assumptions follow from the present line-up: a public that expects harm from AI and prefers earned support, both parties interested in public stakes and dividends, and a system that acts in emergencies and lets emergency measures lapse. The main argument against it is that it sits between two more self-consistent stories. If AI really accelerates its own development, as the measurements of 2026 suggest, there is little reason for the pace to stay moderate (scenarios 4 and 5). And if adoption is slow enough to stretch over a decade, perhaps it is slow enough to stretch over three (scenario 1).
+*For and against.* This scenario is the direct application of @h-lag, which is the rule the evidence supports. Its technological assumptions are my median forecasts. Its political assumptions follow from the present line-up: a public that expects harm from AI and prefers earned support, both parties interested in public stakes and dividends, and a system that acts in emergencies and lets emergency measures lapse. The main argument against it is that it sits between two more self-consistent stories. If AI really accelerates its own development, as the measurements of 2026 suggest, there is little reason for the pace to stay moderate (Rentier drift and Takeoff). And if adoption is slow enough to stretch over a decade, perhaps it is slow enough to stretch over three (Slow diffusion).
 
 *My probability: 40 percent.*
 
-== 3. Shared dividend
+== Shared dividend
 
 _The same technology as the squeeze, met by a durable public claim on the income of the machine economy._
 
-*What has to be true.* The recession and the jobless recovery produce a political majority for a structural response, and the response takes the durable forms identified in @p-durable, universal, automatic, visible and hard to reverse, while the majority still has the leverage to demand it (@p-window).
+*What has to be true.* The recession and the jobless recovery produce a political majority for a structural response, and the response takes the durable forms identified in @h-durable, universal, automatic, visible and hard to reverse, while the majority still has the leverage to demand it (@p-window).
 
 *How it unfolds.* The election of 2028 is fought on AI and jobs. The winning coalition takes the public-stake idea that both parties floated in 2026 and makes it large: a national fund that receives a share of the equity of the largest AI and computing companies, a levy on data-center capacity and energy sites, and a mandate to pay every adult an equal dividend. Unemployment insurance is rebuilt to switch on automatically. Health insurance is separated from employment. The standard working week is shortened. A national service program offers paid work in care, conservation and teaching to anyone who wants it.
 
-*In 2036.* Employment, labor's share and output are as in the squeeze, but the dividend is a few thousand dollars per adult and rising with the machine economy, the fund owns a tenth or more of the AI sector, and the principle that every citizen has a property claim on machine output is established in law before robots arrive in force. That last fact is what distinguishes this scenario from all the others.
+*In 2036.* Hours worked, labor's share and output are as in the squeeze, and more people hold jobs because the week is shorter. But the dividend is a few thousand dollars per adult and rising with the machine economy, the fund owns a tenth or more of the AI sector, and the principle that every citizen has a property claim on machine output is established in law before robots arrive in force. That last fact is what distinguishes this scenario from all the others.
 
 *For and against.* For: the idea already has sponsors in both parties and in the industry itself, the phrase "dividend" polls well, the first victims are politically powerful, and the Social Security shortfall creates an occasion. Against: the United States has passed structural social legislation on this scale twice in a century, both times with one party holding very large majorities, and has let its recent emergency programs expire. The sums are an order of magnitude beyond anything proposed with a number attached (@ch-policy). The industry's support is for a small stake. And the public's present anger is aimed at data centers, which leads to restricting the machines, a different thing from owning them.
 
 *My probability: 12 percent.* I think a small version of this, a token dividend and a stake of a few percent, is about as likely as not (@f-policy); that version belongs to the squeeze. The 12 percent is for the durable version.
 
-== 4. Rentier drift
+== Rentier drift
 
 _The technology moves fast, robots follow closely, and the gains are captured by those who own the machines._
 
@@ -88,17 +88,17 @@ Politics does respond, but in the least durable ways. There is an income for the
 
 *In 2036.* Machines do four fifths of screen-based work and a third of physical work. Fewer than three in five people aged 25 to 54 have a job, and many of those jobs are protected ones. Labor's share of income is about a third. The economy is 80 percent larger than in 2026. The wealthiest tenth of households, who owned more than two thirds of the wealth at the start, own a good deal more.
 
-*For and against.* This is the outcome that the logic of Part III produces if nothing intervenes: income follows ownership (@p-ownership), and leverage declines with need (@p-leverage-lost). It is what the authors of "The Intelligence Curse" and "Gradual Disempowerment" warn of @drago-laine-2025 @kulveit-2025. The fast technological path has the capability evidence on its side. Against it: fast diffusion is the half of the fast story that the evidence has _not_ supported so far, and robots at that scale by 2036 require nearly everything in manufacturing and politics to go right. And a faster, harsher transition seems more likely to provoke a large political response than a slow one, which moves some probability from this scenario to scenarios 3 and 6.
+*For and against.* This is the outcome that the logic of Part III produces if nothing intervenes: income follows ownership (@p-ownership), and leverage declines with need (@p-leverage-lost). It is what the authors of "The Intelligence Curse" and "Gradual Disempowerment" warn of @drago-laine-2025 @kulveit-2025. The fast technological path has the capability evidence on its side. Against it: fast diffusion is the half of the fast story that the evidence has _not_ supported so far, and robots at that scale by 2036 require nearly everything in manufacturing and politics to go right. And a faster, harsher transition seems more likely to provoke a large political response than a slow one, which moves some probability from this scenario to Shared dividend and The brake.
 
 *My probability: 13 percent* for reaching this state by 2036. As a description of where the squeeze leads in the 2040s if nothing durable is built, I think it is the default.
 
-== 5. Takeoff
+== Takeoff
 
 _AI improves itself, capability passes human level in everything within a few years, and the economy begins to grow at rates never seen._
 
 *What has to be true.* The feedback loop measured at about two-fold in 2026 strengthens instead of fading. By 2028 or so, AI systems do AI research better than people. Systems far more capable than any person follow within a year or two. They design the robots and the factories, and physical production begins to double every year or two.
 
-*How it unfolds.* I will not pretend to narrate this in detail. In the best-known account of such a path, the economy is transformed after the leap in machine capability, in special zones where regulation is lifted, with a million robots a month by the end of 2028 @ai-2027. In the accounting model, output in 2036 is five times its 2026 level, a quarter of prime-age adults are in what can still be called work, and labor's share of income is near a tenth at most.
+*How it unfolds.* I will not pretend to narrate this in detail. In the best-known account of such a path, the economy is transformed after the leap in machine capability, in special zones where regulation is lifted, with a million robots a month by the end of 2028 @ai-2027. In the accounting model, output in 2036 is five times its 2026 level, a quarter of adults aged 25 to 54 are in what can still be called work, and labor's share of income is near a tenth at most.
 
 *What matters in this scenario is not economics.* An economy growing at 20 percent a year can afford anything. The questions are whether the systems do what their owners intend, who the owners are, and whether any government is still in a position to tax and redistribute. @p-window says that the majority's leverage is greatest before automation is complete. In a takeoff, the window is a few years long, and it is open now.
 
@@ -106,15 +106,15 @@ _AI improves itself, capability passes human level in everything within a few ye
 
 *My probability: 12 percent* that growth of this kind is under way by 2036.
 
-== 6. The brake
+== The brake
 
 _The build-out is stopped: by politics, by an accident or by a war._
 
-*What has to be true.* One of three things. A political movement against AI wins: the local votes against data centers in November 2026 grow into state and then federal moratoria, and the leading countries, including China, reach some understanding that neither will race. Or an AI system causes a disaster, in finance or infrastructure or through a weapon, serious enough that strict controls follow, as they did for nuclear power after 1979 and 1986. Or the supply of advanced chips is cut off, most plausibly by a conflict over Taiwan, where most of the most advanced ones are made.
+*What has to be true.* One of three things. A political movement against AI wins: the local votes against data centers in November 2026 grow into state and then federal moratoria, and the United States and China reach some understanding that neither will race. Or an AI system causes a disaster, in finance or infrastructure or through a weapon, serious enough that strict controls follow, as they did for nuclear power after 1979 and 1986. Or the supply of advanced chips is cut off, most plausibly by a conflict over Taiwan, where most of the most advanced ones are made.
 
 *How it unfolds.* Capability already in existence stays in use, so screen-based work continues to change slowly. The frontier stops or crawls. Robots do not arrive in numbers. The economy of 2036 looks much like that of slow diffusion, reached by a different road, with the difference that the capability is known to be available and is being held back by decision.
 
-*For and against.* For: the public is strongly negative about AI, the incidents of 2026 show that serious accidents are possible, and the most capable systems are already being withheld from general release on safety grounds. Against: the commercial and military incentives to continue are enormous, a brake in one country is an advantage to its rivals, and the technology runs on hardware that already exists in tens of millions of units. A brake by treaty would be one of the hardest feats of coordination ever attempted. A brake by war or disaster needs no coordination, which is why most of this probability sits there.
+*For and against.* For: the public is strongly negative about AI, the incident of July 2026 described in @ch-now shows that serious accidents are possible, and the most capable systems are already being withheld from general release on safety grounds. Against: the commercial and military incentives to continue are enormous, a brake in one country is an advantage to its rivals, and the technology runs on hardware that already exists in tens of millions of units. A brake by treaty would be one of the hardest feats of coordination ever attempted. A brake by war or disaster needs no coordination, which is why most of this probability sits there.
 
 *My probability: 8 percent.*
 

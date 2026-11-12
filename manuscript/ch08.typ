@@ -43,7 +43,7 @@ Everything now depends on _h_, and nobody knows it. It is a fact about what peop
     [10 percent], [20%], [39%], [98%], [196%],
     [20 percent], [39%], [78%], [196%], [392%],
   ),
-  caption: [Total pay for human-required work, as a percentage of everything American employers pay their workers today, for different values of _h_ and different sizes of the economy. Today about 51 percent of national income is paid to employees.],
+  caption: [Total pay for human-required work, as a percentage of everything American employers pay their workers today, for different values of _h_ and different sizes of the economy. Today about 51 percent of all income is paid to employees, a wider measure than the business-sector share used in @ch-economy.],
 ) <tab-h>
 
 The table makes two things plain. In an economy the size of today's, even a generous _h_ supports a fraction of today's pay. And in an economy several times larger, a modest _h_ supports as much total pay as now. So paid work does not have to wither in absolute terms. Whether it can still be the way _most people_ make a living is a different question, which the next section takes up.
@@ -59,7 +59,7 @@ There is also the law. Health care, education, the legal system and government t
 History offers a further check. In societies where a small class held most of the income, one of the largest occupations was usually service to that class. In the United States in 1870, one worker in thirteen was a domestic servant, and as late as 1900 the country had more servants than construction workers @lebergott-1966. In Britain, a more unequal society, domestic service was by the usual account the largest single occupation at the census of 1901. That is what an economy does with people when the main source of demand for their work is the households of the rich. It employs them in large numbers and at low pay, because many compete for the places.
 
 #hypothesis([The appetite for human-required work is real and limited])[
-  Under the premise, between a twentieth and a quarter of all spending will go to work that buyers want from a person or that the law reserves for one. That is far below the half or so of income that is paid for work today. _My confidence that the share falls in this range: about two in three. I think a higher share more likely than a lower one in the first decades, while laws that reserve work for people remain in force._
+  Under the premise, between a twentieth and a quarter of all spending will go to work that buyers want from a person or that the law reserves for one. That is far below the half or so of income that is paid for work today. _My confidence that the share falls in this range: about two in three. I think a higher share more likely than a lower one in the first decades, while laws that reserve work for people remain in force. If the share is higher than this range, paid work for people survives on a larger scale than this guide expects, and @p-residual matters more._
 ] <h-residual>
 
 == Who gets the work
@@ -67,7 +67,7 @@ History offers a further check. In societies where a small class held most of th
 Suppose _h_ is a tenth and the economy has doubled. Total pay for human-required work is then about two fifths of today's total pay. How is it shared out?
 
 #proposition([Human-required work mirrors the distribution of income], from: [@p-residual-share, @p-ownership, @h-residual])[
-  The pay for human-required work is set by how much those with income choose to spend on it, divided among everyone who seeks such work. It flows from whoever has income to whoever is chosen. If income is concentrated, many people compete to serve few, and pay is low for all but the most sought-after and the legally protected. If income is widely spread, people buy human services from one another, and pay can be respectable. In both cases the distribution of other income comes first, and the wages follow from it.
+  The pay for human-required work is set by how much those with income choose to spend on it, divided among everyone who seeks such work. It flows from whoever has income to whoever is chosen. If income is concentrated, nearly everyone without property has to seek this work, the same spending is divided among more of them, and pay is low for all but the most sought-after and the legally protected. If income is widely spread, fewer people need the work, people buy human services from one another, and pay can be respectable. In both cases the distribution of other income comes first, and the wages follow from it.
 ] <p-residual>
 
 These are two very different societies, and it is worth picturing each.

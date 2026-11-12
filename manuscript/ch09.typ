@@ -11,7 +11,7 @@ At the end of @ch-history I listed three ways in which a population of people di
 @ch-economy said that a wage is a price, set by scarcity. That is half of how a group's share of output is decided. The other half is everything that law and government do to the result: taxes, transfers, the rules of the labor market, public services. The first half is economics. The second is politics, and it has its own regularity.
 
 #hypothesis([Shares follow leverage])[
-  Over the long run, how much of a society's output reaches a group through taxes, transfers and law reflects that group's leverage: what it is able to withhold from others or impose on them, including its votes where votes decide things. Entitlements that are not backed by some form of leverage tend to erode. _This is a generalization about history, with exceptions. My confidence that it describes the main tendency: about three in four._
+  Over the long run, how much of a society's output reaches a group through taxes, transfers and law reflects that group's leverage: what it is able to withhold from others or impose on them, including its votes where votes decide things. Entitlements that are not backed by some form of leverage tend to erode. _This is a generalization about history, with exceptions. My confidence that it describes the main tendency: about three in four. If it is wrong, and majorities keep their share by the vote alone, then the window of @p-window matters much less._
 ] <h-leverage>
 
 The evidence for it is of four kinds.
@@ -35,7 +35,7 @@ Put together, the cases say this. Leverage has three sources: being needed while
 == What automation does to leverage
 
 #proposition([Automation removes the leverage of being needed], from: [@h-leverage, @d-premise, @p-share-zero])[
-  Under the premise, the first source of leverage disappears: work that is not needed cannot be withheld. The capacity to cause trouble weakens as armies and police forces automate and as the state's revenue stops coming from wages. What remains to the majority is the vote, and the willingness of institutions to honor it.
+  Under the premise, the first source of leverage disappears: work that is not needed cannot be withheld. The capacity to cause trouble weakens as armies and police forces automate and as the state's revenue stops coming from wages (@p-fiscal, below). What remains to the majority is the vote, and the willingness of institutions to honor it.
 ] <p-leverage-lost>
 
 Two writers have named this prospect "the intelligence curse," by analogy with the resource curse of the oil states: if a country's income flows from machines and not from its people's work, those who control the state have less reason to invest in the people or to listen to them @drago-laine-2025.
@@ -44,7 +44,7 @@ The point is easy to overstate, and precision matters here. Formal rights are po
 
 There is also an encouraging pattern in the same evidence. Where strong institutions were in place _before_ the windfall arrived, the windfall was shared. Norway found oil as an established democracy and put the proceeds into a public fund that is now worth more than \$350,000 per citizen. Alaska created a public fund from its oil revenue in 1976, and every resident has received a dividend from it each year since 1982 @alaska-pfd. Countries that found oil with weaker institutions, such as Nigeria and Venezuela, saw the proceeds captured. The lesson is about order. Institutions that are settled before the money flows tend to keep the money flowing to the public. Institutions that are built afterward have to be extracted from those who already hold it.
 
-The loss of leverage is not even across the transition, and @p-cliff says why. While some necessary tasks still need people, the people who do them have _more_ leverage than before. The East Coast dockworkers, who can close a port, won a ban on automated equipment in 2025. Leverage first drains away from the many whose work machines can do, and concentrates in the few who hold a remaining bottleneck. It disappears for everyone only at the end.
+The loss of leverage is not even across the transition, and @p-cliff says why. While some necessary tasks still need people, the people who do them have _more_ leverage than before. The East Coast dockworkers, who can close a port, won a ban on fully automated equipment in 2025. Leverage first drains away from the many whose work machines can do, and concentrates in the few who hold a remaining bottleneck. It disappears for everyone only at the end.
 
 #proposition([The window], from: [@h-leverage, @p-leverage-lost, @p-cliff])[
   The leverage of the majority is greatest before automation is far advanced, while most people's work is still needed, their taxes still fund the state and their numbers still fill the army. It declines as automation proceeds. A lasting claim by the majority on the output of the machine economy is therefore easier to establish early in the transition than late, and easier late than afterward.
@@ -64,7 +64,7 @@ It would be a mistake to treat the government as an umpire standing outside the 
   *Where the federal government's money comes from.* Receipts in the fiscal year that ended in September 2026, by source. Total: \$5.4 trillion.
 ], source: [US Treasury, Monthly Treasury Statement. `models/fig_receipts.py`]) <fig-receipts>
 
-The dollars that stop being paid as wages do not vanish; they turn up as profits and rents (@p-identity). But the tax system treats them very differently. By one careful estimate, income from work is taxed in the United States at more than 28 percent, and income from equipment and software at about 5 percent @acemoglu-manera-restrepo-2020. So every dollar that moves from wages to profits costs the Treasury about a fifth of a dollar under present law. And the payroll taxes that support Social Security and Medicare fall on wages alone.
+The dollars that stop being paid as wages do not vanish; they turn up as profits and rents (@p-identity). But the tax system treats them very differently. By one careful estimate, income from work is taxed in the United States at more than 28 percent, and income from equipment and software at about 5 percent @acemoglu-manera-restrepo-2020. So every dollar that moves from wages to profits costs the Treasury nearly a quarter of a dollar under present law. And the payroll taxes that support Social Security and Medicare fall on wages alone.
 
 This cuts in two directions, and both matter for the forecasts.
 

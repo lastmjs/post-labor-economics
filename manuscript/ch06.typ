@@ -30,7 +30,7 @@ Because of this, lasting growth in output per person has come almost entirely fr
 
 So human work has been the speed limit twice over. It limits how much use can be made of additional tools, and it limits how fast new knowledge arrives.
 
-#proposition([Machine labor removes the population limit on growth], from: [@d-machine-labor, @p-output-rises])[
+#proposition([Machine labor removes the population limit on growth], from: [@d-premise, @a-production, @p-output-rises])[
   If machines can do the work, then work becomes something that can be manufactured, like any other tool. Tools and "workers" can then be multiplied together, and adding more of both does not run into diminishing returns in the way that adding tools to a fixed workforce does. The growth of the economy is then limited by how fast it can turn its output into more machines, and by whatever inputs still cannot be manufactured.
 ] <p-growth-limit>
 
@@ -54,7 +54,7 @@ Growth and the wage level interact in a way that is easy to get backwards. A fas
 
 When one input becomes plentiful, the income it used to earn does not disappear. By @p-identity it must be paid to someone. By @p-price it is paid to whatever is still scarce.
 
-#proposition([Income moves to the owners of machines and of what cannot be multiplied], from: [@p-identity, @p-price, @p-at-cost])[
+#proposition([Income moves to the owners of machines and of what cannot be multiplied], from: [@p-identity, @p-price, @p-at-cost, @p-share-zero, @p-growth-limit])[
   As machine labor becomes plentiful, the share of income paid for work falls, and the same income is paid to owners. While machines are being built out, they and the things needed to make and run them, chips, power, sites, earn more than an ordinary return. In the long run machines can be reproduced and earn only an ordinary return on what they cost, but there are so many of them that this ordinary return is most of the economy's income. Anything _beyond_ an ordinary return goes to what cannot be reproduced: land and location, energy and raw materials, legal permissions, and market positions protected from competition.
 ] <p-rents>
 
@@ -76,7 +76,7 @@ One more piece of machinery needs describing, briefly, because it gives a way to
 
 When there are very profitable things to build, the demand for the funds to build them is high, and the price of funds, the real interest rate, is pulled up. Under the premise there is a great deal of profitable building to do. Theory therefore predicts high real interest rates during the build-out, perhaps much higher than any in living memory @chow-halperin-mazlish-2026. There are forces the other way. If income shifts toward people who save most of it, or if households save more out of fear for their jobs, the supply of funds rises and rates are pulled down. A slump in spending of the kind described in @ch-distribution lowers them too.
 
-So the long-term real interest rate is a useful gauge. If the machine economy is taking off, it should rise well above its historical range. If displacement is draining demand faster than investment replaces it, it should fall. In November 2026 the rate on long-term American government debt, after inflation, was about 3 percent: the highest since 2008, and nowhere near what investors would demand if they expected the economy to double every few years. Markets are pricing an investment boom. They are not pricing a transformation.
+So the long-term real interest rate is a useful gauge. If the machine economy is taking off, it should rise well above its historical range. If displacement is draining demand faster than investment replaces it, it should fall. In November 2026 the rate on long-term American government debt, after inflation, was about 3 percent: the highest since 2008, and nowhere near what investors would demand if they expected the economy to double every few years. Part of that level has nothing to do with AI: an oil shock, inflation of 3.7 percent and heavy federal borrowing would be enough to explain it. At most, markets are pricing an investment boom. They are not pricing a transformation.
 
 The same shift moves the value of existing claims. Claims on scarce inputs to the machine economy gain. Claims that depend on wages being paid lose: consumer loans, mortgages in cities that live on office work, shops that serve the middle of the market, and the tax base of any government that leans on payrolls. None of this is advice about any particular asset, and timing such changes is notoriously hard. The point is structural: a great deal of the existing financial system is a set of promises that assume wages will continue, and @ch-distribution shows why that makes the transition fragile.
 

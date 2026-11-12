@@ -24,9 +24,9 @@ Take the three kinds of work that the scenario model in @ch-scenarios uses. Scre
 
 Three things follow from the earlier chapters about how this work changes.
 
-*It goes task by task, and the last tasks matter most.* By @p-cliff, a profession in which machines do 80 percent of the tasks can be a better-paid profession than before, for the people who do the other 20 percent, which are typically the tasks of deciding what is wanted, checking the result and answering for it. The evidence of 2026 fits this: fewer junior recruits, higher pay for experienced staff, and rising output. The profession loses that protection when the machine can also specify, check and answer for the work.
+*It goes task by task, and the last tasks matter most.* By @p-cliff, a profession in which machines do 80 percent of the tasks can be a better-paid profession than before, for the people who do the other 20 percent, which are typically the tasks of deciding what is wanted, checking the result and answering for it. The evidence of 2026 fits this, though it does not prove it: fewer junior recruits, experienced staff kept on, and rising output. The profession loses that protection when the machine can also specify, check and answer for the work.
 
-*Entry closes before exit opens.* The adjustment so far is through hiring. Firms do not dismiss the people they have. They stop taking on beginners, whose work is the first that agents can do. For a time this protects everyone already inside. It also means that a profession can be dying while nobody in it has lost a job, and that the cost falls first on the young. The supply of experienced people, who learned by doing the junior work, then begins to dry up, which increases the pressure to automate the senior work too.
+*Entry closes before exit opens.* The adjustment so far, where there has been one, is through hiring. Firms do not dismiss the people they have. They stop taking on beginners, whose work is the first that agents can do. For a time this protects everyone already inside. It also means that a profession can be dying while nobody in it has lost a job, and that the cost falls first on the young. The supply of experienced people, who learned by doing the junior work, then begins to dry up, which increases the pressure to automate the senior work too.
 
 *It reverses forty years of pattern.* Since about 1980, new technology has favored the educated over the uneducated, the office over the factory, and the big city over the small town. The first transition runs the other way. The plumber and the nursing aide are, for a decade, safer than the paralegal and the financial analyst. This has no precedent in living memory, and @ch-power argued that its political effects will be large because of who is affected.
 
@@ -72,11 +72,11 @@ The point of the exercise is that _the second transition is the one that changes
 
 This guide is about the United States, but three facts about other countries bear on its argument @notes-robots @notes-labor.
 
-Countries that sell screen-based services to the rich world, such as India with its software and back-office industry and the Philippines with its call centers, face the first transition without owning the machines that carry it out. India's three largest technology-services firms have not grown in two years, after a long period of rapid hiring, and the largest employs fewer people than it did in 2022.
+Countries that sell screen-based services to the rich world, such as India with its software and back-office industry and the Philippines with its call centers, face the first transition without owning the machines that carry it out. India's three largest technology-services firms have barely grown in two years, after a long period of rapid hiring, and the largest employs fewer people than it did in 2022.
 
 Poor countries have generally become richer by offering cheap labor, first of all in factories. A world in which machine labor is cheaper than any human labor takes that ladder away.
 
-And the physical half of the machine economy runs through China, which installs more than half of the world's industrial robots, builds, by industry counts, nearly nine tenths of its humanoid robots, and controls most of the supply of the magnets that robot motors use. The United States leads in machine minds. It does not lead in machine hands, and the second transition depends on them.
+And the physical half of the machine economy runs through China, which installs more than half of the world's industrial robots, builds, by industry counts, nearly nine tenths of the world's humanoid robots, and controls most of the supply of the magnets that robot motors use. The United States leads in machine minds. It does not lead in machine hands, and the second transition depends on them.
 
 #checkpoint[
   - Mental machine labor can be supplied in very large quantity soon after it is capable. Physical machine labor has to be manufactured, body by body.
