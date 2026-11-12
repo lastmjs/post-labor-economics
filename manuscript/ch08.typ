@@ -25,7 +25,7 @@ These are real, and under the premise they are all that is left. Wages will not 
 
 Under the premise, the only wages paid are for human-required work. That gives a simple identity.
 
-#proposition([The wage share equals the human-required share of spending], from: [@p-identity, @p-wages-fall, @d-human-required])[
+#proposition([The wage share equals the human-required share of spending], from: [@p-identity, @p-share-zero, @d-human-required])[
   In a post-labor economy, total wages equal total spending on human-required work. The share of national income paid as wages is therefore equal to the share of all spending that buyers choose, or are obliged by law, to direct to work done by people.
 ] <p-residual-share>
 

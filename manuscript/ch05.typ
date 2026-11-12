@@ -48,7 +48,7 @@ The first two steps apply task by task. A real economy has thousands of kinds of
 
 We already have the answer for the tasks machines cannot yet do. By @p-bottleneck, those tasks become the bottleneck, and the people who do them are paid more. So during a period of partial automation, two forces act on workers at once. Workers in automated tasks hit the ceiling (@p-ceiling). Workers in the remaining tasks gain from scarcity (@p-bottleneck), though they are also joined by everyone displaced from the automated tasks, which pulls their pay down again.
 
-To see how these forces add up, I built the smallest model that contains all of them. It has many tasks that are complements, machines that can do a growing share of the tasks and that improve every year, people who move freely to wherever they are still needed, and owners who reinvest a constant share of income. Its equations and the checks on them are in Appendix A, and the code is in the repository. @fig-cliff shows two runs of the model. They are identical in every respect but one. In the first run, automation stops when machines can do 90 percent of tasks. In the second it goes on to 100 percent.
+To see how these forces add up, I built the smallest model that contains all of them. It has many tasks that are complements, machines that can do a growing share of the tasks and that improve every year, people who move freely to wherever they are still needed, and owners who reinvest a constant share of income. It is a stripped-down version of the model that the economists Anton Korinek and Donghyun Suh published in 2024, and it reproduces their central result @korinek-suh-2024. Its equations and the checks on them are in @app-models, and the code is in the repository. @fig-cliff shows two runs of the model. They are identical in every respect but one. In the first run, automation stops when machines can do 90 percent of tasks. In the second it goes on to 100 percent.
 
 #plot("../figures/cliff.svg", [
   *The same economy with and without a last human task.* In both runs machines improve by 5 percent a year and the share of tasks they can do rises over 26 years. On the left the share stops at 90 percent: the wage stalls while displaced workers crowd into the remaining tasks, then climbs steeply once those tasks are the bottleneck for a much larger economy. On the right the share reaches 100 percent: the wage peaks about a third above its starting level and then falls to the machine price, 26 percent _below_ where it started, while output grows 46-fold. Model output; an illustration of the mechanism and not a forecast.
@@ -70,6 +70,8 @@ Three things follow from the cliff, and each will matter for the forecasts in Pa
 
 Suppose, then, that the premise holds completely and there is no last task. Human work is paid the machine price, and the machine price tends to machine cost. How low is that?
 
+The first three steps were logic, and every formal model of full automation agrees with them. This step is different. Economic theory does not say whether the machine price is high or low. That is a question of fact about engineering and costs, and it has to be answered with numbers.
+
 #proposition([The upkeep comparison], from: [@p-at-cost, @d-machine-labor])[
   A machine that does the work of a person needs fewer resources to build and run than a person needs in order to live. This is already true, at today's prices, for the tasks machines can perform, and the gap widens every year because the cost of machines falls and the needs of a human body do not.
 ] <p-upkeep>
@@ -84,17 +86,27 @@ Neither machine can yet do everything the person can. That is the premise, and w
 
 The same comparison can be made without money, in physical resources, and this version is the one that does not depend on any price. A person needs, at the very least, food, water, shelter and warmth, every hour of every day, whether working or not, for about twenty years before any useful work is done and for all the years after it stops. The energy flowing through the American economy on behalf of each resident is roughly 9,000 watts around the clock. A working humanoid robot draws a few hundred watts, only while it works. A share of a data-center computer running the mental work of one person draws a few hundred to a thousand watts. The machine is the cheaper way to turn energy and materials into work, by a wide margin, for the same reason that the truck was a cheaper way than the horse to turn them into haulage.
 
-Combine the four steps and we arrive at the horse lemma (@p-horse), now applied to people.
+Combine the four steps. The first three give a result that holds in every formal model of full automation that economists have written down.
 
-#proposition([Work stops paying for life], from: [@p-ceiling, @p-at-cost, @p-cliff, @p-upkeep, @p-horse])[
-  If machines can perform every task that people perform for pay, then the market wage for human work falls to the price of machine work, which tends to a level below the cost of supporting a person. Selling work can then no longer be the way most people earn a living, and the share of national income paid as wages tends toward zero. This happens while total output rises.
+#proposition([The wage stops carrying the output], from: [@p-ceiling, @p-at-cost, @p-cliff])[
+  If machines can perform every task that people perform for pay, the wage for human work equals the price of machine work. It no longer rises as the economy grows, and the share of national income paid as wages tends toward zero. This happens while total output rises.
+] <p-share-zero>
+
+This alone is enough to break the wage system as a way of distributing output (@p-wage-system). Even if wages stayed exactly where they are today in what they can buy, an economy that grew tenfold with a constant wage would be paying its workers a tenth of the share they receive now, and the rest would go elsewhere.
+
+Adding the fourth step gives the stronger result, which is the horse lemma (@p-horse) applied to people.
+
+#proposition([Work stops paying for life], from: [@p-share-zero, @p-upkeep, @p-horse])[
+  Because machine work costs less than it costs to support a person, the wage under full automation falls below what a person needs to live on. Selling work can then no longer be the way most people earn a living.
 ] <p-wages-fall>
 
-Notice what the proposition does not say. It does not say that there will be nothing for people to do, or that people will be forbidden to work. Anyone may still offer work at the machine price. It says that work at that price will not pay the rent. In practice the result would be recorded mostly as people leaving the labor force, since minimum-wage laws forbid, and few people accept, work at a dollar an hour.
+I hold the first of these two propositions with near certainty, given the premise. I hold the second with less, perhaps four chances in five, because it depends on magnitudes that the last objection below disputes. The rest of the guide needs only the first.
 
-It also does not say that the price of every kind of human work falls to the machine price. Where a buyer wants the work done _by a person_, and a machine is therefore not a substitute at all, @p-ceiling does not apply. @ch-residual measures how much that exception is worth.
+Notice what neither proposition says. Neither says that there will be nothing for people to do, or that people will be forbidden to work. Anyone may still offer work at the machine price. In practice the result would be recorded mostly as people leaving the labor force, since minimum-wage laws forbid, and few people accept, work at a dollar or two an hour.
 
-== Six objections
+Nor does either say that the price of every kind of human work falls to the machine price. Where a buyer wants the work done _by a person_, and a machine is therefore not a substitute at all, @p-ceiling does not apply. @ch-residual measures how much that exception is worth.
+
+== Seven objections
 
 The conclusion is unwelcome, and there are well-known arguments against it. Each deserves its strongest statement.
 
@@ -132,11 +144,17 @@ Where this is true, it describes a remaining human task, namely directing and ch
 
 Agreed on every point (@a-scarcity). Unlimited wants guarantee unlimited demand for _output_. They guarantee demand for human work only if human work is the cheapest way to produce the output. The fallacy lies in assuming a fixed amount of work. The argument of this chapter assumes nothing of the kind: in @fig-supply the amount of work done grows enormously. It is done by machines.
 
+#objection([Workers could always go on as before, so they cannot end up worse off])[
+  Nothing forces anyone to use the new machines. Workers and the firms that employ them could simply carry on producing and trading with one another exactly as they do today. Since that option always remains, competition can only make them better off. Several formal results in economics say exactly this: under the right conditions, a new technology cannot lower the total income of the inputs that existed before it.
+]
+
+The theorem is correct, and its conditions tell us exactly where to look. The economy of today does not run on work alone. It runs on work combined with factories, offices, land, energy and materials, and the workers do not own those. Their owners are free to put them to whatever use pays best. If land is worth more under a data center than under a factory, and electricity is worth more running machines than lighting an office, then "carrying on as before" is no longer on offer to someone who owns only their work, because the other half of the old arrangement has left. What the theorem really guarantees is that the owners of the old inputs _taken together_ do not lose. It is silent on how the gain is divided between the people who supplied the work and the people who supplied everything else. In the most careful recent model of this kind, by Pascual Restrepo, the total paid in wages does not fall when computing power is the only scarce thing, and yet the wage share of income still goes to zero and wages stop growing with the economy @restrepo-2025. That is @p-share-zero.
+
 #objection([Machines will stay scarce, so their work will stay expensive])[
   In an economy growing explosively, machines are enormously productive, and the return on owning one is very high. If human work is paid what an equivalent machine earns, and machines earn a great deal, then human wages could stay high or even rise.
 ]
 
-This is the most serious objection in economic theory, and several formal models produce exactly this result for a time. The reply is about magnitudes. What a person can earn is the rental price of the _amount of machinery needed to replace that person_. For mental work this is a small fraction of one computer chip, and each year better software shrinks the fraction. Even if the rental price of chips doubled or tripled because of scarcity, the cost of replacing an hour of a person's mental work would still be far below that person's cost of living, and falling. For physical work the objection has more force, because robots have to be manufactured in the hundreds of millions before they are plentiful, and that will take longer. It is one reason this guide expects physical wages to hold up longer than mental ones.
+This is the most serious objection in economic theory, and several formal models produce exactly this result, for a time or for good @trammell-korinek-2025 @restrepo-2025. A survey of the theory concludes that whether wages end up above or below today's level is not settled by the models, and depends on how scarce machines remain and on whether land and energy become the binding limit. The reply is therefore about magnitudes. What a person can earn is the rental price of the _amount of machinery needed to replace that person_. For mental work this is a small fraction of one computer chip, and each year better software shrinks the fraction. Even if the rental price of chips doubled or tripled because of scarcity, the cost of replacing an hour of a person's mental work would still be far below that person's cost of living, and falling. For physical work the objection has more force, because robots have to be manufactured in the hundreds of millions before they are plentiful, and that will take longer. It is one reason this guide expects physical wages to hold up longer than mental ones.
 
 There is a further limit even in the long run. A machine economy that keeps growing eventually presses against what cannot be manufactured: land, sunlight, minerals. Economists since Ricardo have understood what happens to a population that can multiply without limit on a fixed base of land. Its members end up earning their own cost of reproduction, and the surplus goes to whoever owns the land. Machines are such a population. In the long run their work is priced at what it costs to build and run them, and so is any human work that competes with theirs.
 
@@ -144,6 +162,6 @@ There is a further limit even in the long run. A machine economy that keeps grow
   - A machine substitute caps the wage at the price of machine work (@p-ceiling), and that price tends toward the cost of building and running machines (@p-at-cost).
   - While necessary tasks remain that only people can do, those people gain; when none remain, the gain reverses (@p-cliff). Average wages may therefore rise during the transition and are a poor warning signal.
   - Machine cost is below the cost of supporting a person (@p-upkeep).
-  - Under the premise, therefore, work stops being a way to earn a living, although output is higher than ever (@p-wages-fall).
+  - Under the premise, therefore, the wage stops carrying the economy's output to most people (@p-share-zero), and very probably stops covering the cost of living (@p-wages-fall), although output is higher than ever.
   - The economy has not become poorer. One of the three channels of income (@d-income) has closed. The next two chapters ask what happens to production, and then who receives it.
 ]

@@ -8,7 +8,7 @@ We now have an economy that can produce more than ever (@ch-growth) and in which
 
 Recall that income can come only from work, from ownership or from transfers (@d-income). Remove the first and two remain.
 
-#proposition([Without wages, income follows ownership], from: [@d-income, @p-identity, @p-wages-fall])[
+#proposition([Without wages, income follows ownership], from: [@d-income, @p-identity, @p-share-zero])[
   Under the premise, all of the economy's income is paid to the owners of machines, land, natural resources and legal rights. Any person's claim on output is then the return on what they own plus whatever is transferred to them.
 ] <p-ownership>
 
@@ -75,7 +75,7 @@ That was the destination. The journey is more dangerous, and here the objection 
 
 *Recessions are when the cuts happen.* Firms are reluctant to dismiss workers in good times and quick to do it in bad times. Studies of recent decades find that routine jobs were destroyed almost entirely during recessions and did not come back in the recoveries. A downturn caused by displacement therefore causes more displacement. // CHECK Jaimovich & Siu
 
-#proposition([A fast transition can produce a slump in the middle of abundance], from: [@p-wages-fall, @p-no-paradox])[
+#proposition([A fast transition can produce a slump in the middle of abundance], from: [@p-share-zero, @p-no-paradox])[
   If wage income falls faster than other spending rises to replace it, the result is an ordinary recession on top of the structural change: falling sales, defaults, failing lenders and further layoffs. The economy's ability to produce is unharmed throughout. What fails is the flow of spending.
 ] <p-slump>
 
