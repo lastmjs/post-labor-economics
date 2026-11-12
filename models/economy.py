@@ -76,12 +76,12 @@ def simulate(
     years=40,
     I0=0.50,
     I_max=1.0,
-    midpoint=18.0,
-    speed=0.35,
+    start=4.0,
+    finish=30.0,
     sigma=0.5,
-    saving=0.22,
+    saving=None,
     depreciation=0.06,
-    gamma_growth=0.0,
+    gamma_growth=0.08,
     A_growth=0.0,
     labor_share0=0.58,
     alpha=1.0,
@@ -89,15 +89,19 @@ def simulate(
 ):
     """Path of the economy while the automated share rises along an S-curve.
 
-    The starting capital stock is chosen so that the labour share equals
-    `labor_share0`. Returns a dict of arrays indexed by year.
+    The automated share of tasks moves from `I0` to `I_max` between the years
+    `start` and `finish`, and reaches `I_max` exactly at `finish`. Each unit of
+    machine capital does `gamma_growth` more work every year (machines get
+    better and cheaper). The starting capital stock is chosen so that the
+    labour share equals `labor_share0`. If `saving` is None the saving rate is
+    set so that, without automation or better machines, nothing would change.
+    Returns a dict of arrays indexed by year.
     """
     L = 1.0
 
     def frontier(t):
-        s = 1 / (1 + np.exp(-speed * (t - midpoint)))
-        s0 = 1 / (1 + np.exp(speed * midpoint))
-        return I0 + (I_max - I0) * (s - s0) / (1 - s0)
+        x = min(max((t - start) / (finish - start), 0.0), 1.0)
+        return I0 + (I_max - I0) * (3 * x**2 - 2 * x**3)
 
     # Calibrate initial capital by bisection on the labour share.
     lo, hi = 1e-6, 1e6
@@ -110,11 +114,13 @@ def simulate(
         else:
             hi = mid
     K = np.sqrt(lo * hi)
+    if saving is None:
+        saving = depreciation * K / task_economy(K, L, I0, sigma=sigma, alpha=alpha, N=N).output
 
     out = {k: [] for k in ("year", "I", "K", "Y", "wage", "rental", "labor_share", "regime")}
     gamma, A = 1.0, 1.0
     for t in range(years + 1):
-        I = min(frontier(t), I_max)
+        I = frontier(t)
         o = task_economy(K, L, I, gamma=gamma, A=A, sigma=sigma, alpha=alpha, N=N)
         for key, value in zip(out, (t, I, K, o.output, o.wage, o.rental, o.labor_share, o.regime)):
             out[key].append(value)
