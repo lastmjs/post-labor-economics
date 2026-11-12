@@ -4,7 +4,7 @@
 
 An economy is a way of answering two questions: what gets made, and who gets it. Money, firms, jobs, banks and markets are machinery for answering those two questions. The premise of this guide, machines that can do all the work, makes the first question easier than it has ever been and throws the second one wide open.
 
-To see why, we need a handful of facts about how the machinery works. This chapter sets out five axioms and draws three propositions from them. None of them is controversial among economists. The work lies in keeping all of them in view at once, because the argument of the later chapters is nothing more than these facts applied to a new situation.
+To see why, we need a handful of facts about how the machinery works. This chapter sets out six axioms and draws three propositions from them. They are the common ground of economics, the kind of statement found in the first chapters of any textbook. The work lies in keeping all of them in view at once, because the argument of the later chapters is these facts applied to a new situation.
 
 == Wants, production and ownership
 
@@ -22,39 +22,51 @@ Particular wants can be satisfied. Nobody wants a tenth meal in a day. But total
   - *knowledge*: the recipes for combining the other three.
 ] <a-production>
 
-The four inputs differ in one way that will turn out to decide almost everything. Tools can be manufactured: if more are wanted, more can be built. Knowledge, once found, can be used by everyone at once without running out. Nature is fixed in quantity or expands slowly. And work has been limited by the number of people and the hours in their days. An economy can double its stock of machines in a decade. It cannot double its stock of adults.
+The four inputs differ in one way that will turn out to decide almost everything. Tools can be manufactured: if more are wanted, more can be built. Knowledge, once found, can be used by everyone at once without running out. Nature is fixed in quantity or expands slowly. And work has been limited by the number of people and the hours in their days. An economy can double its stock of machines in a decade. It cannot manufacture adults to order.
 
-#axiom([Every input has an owner])[
-  In a market economy, each input belongs to someone who decides how it is used and collects what it earns. A person's work belongs to that person. Nobody can be made to hand over what they own, except to the state through taxes.
+#axiom([Inputs and legal rights have owners])[
+  In a market economy, each input belongs to someone who decides how it is used and collects what it earns. A person's work belongs to that person. So do the legal rights that let some sellers keep rivals out: a patent, a license, a franchise. Nobody can be made to hand over what they own, except to the state through taxes.
 ] <a-ownership>
 
 #definition([Income])[
-  A person's income is their claim on what the economy produces. In a market economy a claim can arise in only three ways: by *selling work* (wages), by *owning* something that earns a return (profits, interest, rent, royalties), or by *receiving a transfer* from someone who has a claim (family, charity or the state).
+  A person's income is their claim on what the economy produces. In a market economy a lasting claim can arise in only three ways: by *selling work* (wages), by *owning* something that earns a return (profits, interest, rent, royalties), or by *receiving a transfer* from someone who has a claim (family, charity or the state).
 ] <d-income>
 
-There is no fourth way. Every scheme discussed in this guide, from a universal basic income to a public wealth fund to a law that reserves certain jobs for humans, works through one of these three channels.
+There is no fourth lasting way. Every scheme discussed in this guide, from a universal basic income to a public wealth fund to a law that reserves certain jobs for humans, works through one of these three channels.
 
 #proposition([All output is somebody's income], from: [@a-production, @a-ownership])[
-  Every dollar of output is paid to the owner of some input that helped produce it. The total income of a country therefore equals its total output, and the question "who gets the output?" is the same question as "who owns the inputs that production uses, and what is each input paid?"
+  Every dollar that is paid for output is received by someone: by a worker, by the owner of a tool, a piece of nature or a legal right, or by the government as tax. The total income of a country therefore equals its total output, and the question "who gets the output?" is the same question as "who owns what production needs, and what is each owner paid?"
 ] <p-identity>
 
 Follow the money from a single sale. A buyer pays \$30,000 for a car. The carmaker pays some of it to its workers, some to its lenders, and some to suppliers of steel, glass and electricity; it keeps the remainder as profit, which belongs to its shareholders. Each supplier does the same with its part. Trace every branch to the end and the whole \$30,000 has landed in someone's pocket as a wage, as interest, as rent or as profit, with the government taking a share along the way. Nothing is left over, and nothing is paid out that was not first earned by a sale. National statistics are built on this fact: gross domestic product and gross domestic income are two measurements of the same number.
 
-This identity will do a great deal of work in @ch-distribution. It means, for example, that wages cannot fall across an economy without the same dollars showing up as somebody else's income, so long as output itself does not fall.
+The part of that total paid for work is called _labor's share_ of income. In American business it is a little over half, and @ch-now shows that it has been falling for a quarter of a century.
+
+The identity will do a good deal of work in @ch-distribution. It means, for example, that wages cannot fall across an economy without the same dollars showing up as somebody else's income, so long as output itself does not fall.
 
 == What a price is
 
 #axiom([Nobody pays more than they must])[
-  A buyer who can get the same result in two ways takes the cheaper one. A firm that can have a task done by either of two methods of equal quality uses the method that costs less; a firm that does not is undersold by a competitor that does.
+  A buyer who can get the same result in two ways takes the cheaper one. A firm that can have a task done by either of two methods of equal quality will, sooner or later, use the method that costs less, or lose its customers to a firm that does.
 ] <a-substitution>
 
-#proposition([An input is paid for its scarcity, not its importance], from: [@a-substitution])[
-  The price of an input can never be more than the cost of the cheapest substitute that does the same job. Where there is no substitute, competition among buyers pushes the price up to the value of what one more unit of the input adds. In both cases, what sets the price is how hard it is to get one more unit, not how much the input matters in total.
+"Sooner or later" matters. This axiom describes where things settle. It says nothing about how long they take to get there, and @ch-speed shows that the wait can be years.
+
+#axiom([Where anyone may enter, price falls toward cost])[
+  If a thing can be made by anyone who chooses to make it, and it sells for more than it costs to make, then more of it gets made, and the extra supply pushes the price down toward the cost. Where entry is blocked, by a patent, a license, a unique site or an advantage too large to copy, the seller keeps a margin above cost for as long as the block lasts.
+] <a-competition>
+
+Both halves of this axiom will be needed. The first is why manufactured goods become cheap. The second is why some sellers stay rich. Whether the makers of machine labor turn out to be in the first situation or the second is one of the open questions of the next ten years, and it is flagged wherever it matters.
+
+#proposition([An input is paid for its scarcity, not its importance], from: [@a-substitution, @a-competition])[
+  The price of an input can never be more than the cost of the cheapest substitute that does the same job. Where there is no substitute and buyers compete for the input, its price is pushed up toward the value of what one more unit of it adds. In both cases, what sets the price is how hard it is to get one more unit, not how much the input matters in total.
 ] <p-price>
 
 This is the old puzzle of water and diamonds. Water is necessary for life and costs almost nothing. Diamonds are ornaments and cost a great deal. The puzzle dissolves once you notice that a price attaches to one more unit, not to the whole supply. One more gallon of water is easy to get; one more diamond is not.
 
-Apply the same reasoning to work. A wage is the price of an hour of someone's work. It is high when what that hour adds cannot be had more cheaply in any other way, and it is low when it can. A wage is not a measure of effort, of merit or of how much the worker needs the money, and it is not a measure of how important the work is. Home health aides do work on which lives depend and are among the lowest-paid workers in the United States, because many people are able and willing to do that work. *A wage is a price, and it is governed by what governs every other price.* Keep hold of this sentence. Most confusion about automation comes from letting go of it.
+Apply the same reasoning to work. A wage is the price of an hour of someone's work. It is high when what that hour adds cannot be had more cheaply in any other way, and it is low when it can. It is not a measure of effort or merit, of how much the worker needs the money, or of how important the work is. Home health aides do work on which lives depend and are among the lowest-paid workers in the United States, because many people are able and willing to do that work.
+
+*To a first approximation, a wage is a price, and it is governed by what governs every other price.* Keep hold of this sentence. Most confusion about automation comes from letting go of it. The approximation leaves things out: unions, minimum-wage laws, custom and the bargaining power of large employers all move wages around. Those forces decide how the value of work is divided at the edges. They cannot make work valuable that has a cheaper substitute, and @ch-power takes them up when it turns to power.
 
 == How most people get their share
 
@@ -71,8 +83,8 @@ The second job goes deeper than paychecks. In the United States most of the safe
 The two jobs of the labor market have gone together for so long that they look like one thing. They are two. One is a matter of engineering and cost: is a person the cheapest way to get this task done? The other is a matter of how people live. For two hundred years the answer to the first has been "yes, for a great many tasks," and so the second took care of itself. The rest of this guide asks what happens when the answer to the first question becomes "no."
 
 #checkpoint[
-  - Output and income are the same total (@p-identity). Whoever owns the inputs that production needs receives the output.
-  - Any input, human work included, is paid according to how hard it is to replace at the margin, and never more than its cheapest substitute costs (@p-price).
+  - Output and income are the same total (@p-identity). Whoever owns what production needs receives the output.
+  - Any input, human work included, is paid according to how hard it is to get one more unit of it, and never more than its cheapest substitute costs (@p-price).
   - Most people own only their work (@a-labor-only), so the wage is how most people receive their share (@p-wage-system).
   - It follows that anything that makes human work easy to replace is a threat to distribution, even if it is a gift to production. To judge that threat we first have to understand why two centuries of machines did not carry it out.
 ]

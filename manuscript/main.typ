@@ -41,7 +41,7 @@
 #include "ch03.typ"
 
 #part-page("II", "The premise and what follows", [
-  Suppose machines can do every task that people are paid to do. What happens to wages, to production, and to the distribution of what is produced? These chapters reason from the premise alone.
+  Suppose machines can do every task that people are paid to do. What happens to wages, to production, and to the distribution of what is produced? These chapters reason from the premise, and say where evidence has to be brought in.
 ])
 #include "ch04.typ"
 #include "ch05.typ"

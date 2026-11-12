@@ -7,7 +7,8 @@ income and output, using a few simple relations that are stated here in full.
 
 Kinds of work (shares of US jobs and of US wages):
 
-    screen      work that can be done entirely at a computer        37% / 46%
+    screen      work that can be done entirely from home, which in
+                practice means at a computer                        37% / 46%
     physical    the nine mainly physical occupation groups          42% / 29%
     in_person   the rest: face-to-face and mixed work               21% / 25%
 
@@ -38,10 +39,20 @@ Relations:
    While people are still needed, pay per hour keeps pace with output per
    person, less a discount for slack in the labour market.
 
-Relations 2 to 4, with r = 0.85, reproduce the three 2030 scenarios published
-by Korinek, Jones, Sacher, Cotter and McCrory (2026) at their stated levels of
-automation (run this file to see the comparison). Everything beyond those
-levels, and everything about physical work, is extrapolation.
+Relations 2 to 4, with r = 0.85, roughly match the three 2030 scenarios that
+Anthropic published with Korinek, Jones, Sacher, Cotter and McCrory (2026): the
+fit is close for output and loose for labour's share (run this file to see the
+comparison). The published scenarios describe their middle and upper cases as AI
+doing about half, and nearly all, of knowledge work; the level of one fifth used
+here for the lowest case is an assumption. Everything beyond those levels, and
+everything about physical work, is extrapolation.
+
+A limit of this bookkeeping: relation 4 keeps pay per hour in step with output
+per person, so total pay stays close to its no-AI path in every scenario and the
+pay of those still in work rises as their number falls. That is the regime in
+which remaining human tasks are a bottleneck. The model has no machine price and
+no wage ceiling, so for the two fast scenarios its labour-share figures are
+upper limits.
 """
 from dataclasses import dataclass, field
 

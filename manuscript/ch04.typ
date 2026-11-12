@@ -11,10 +11,12 @@ Part I ended on a condition. Automation has made workers richer for two centurie
 ] <d-machine-labor>
 
 #definition([The premise])[
-  Machines can perform every task that people perform for pay, at least as well as people do, and at a lower cost than the cost of supporting a person.
+  Machines can perform every task that people perform for pay, at least as well as people do.
 ] <d-premise>
 
-Parts II and III take the premise as _completely_ true and work out what follows. That is a deliberate choice of method. It is the only way to see the destination clearly, and several of the results turn out to depend sharply on the difference between "nearly all tasks" and "all tasks." It is not a claim that the premise is true today, and a reader who doubts that it ever will be should read those parts as an extended "if." Part IV then asks the empirical questions: how much of the premise is already true, how fast the rest is arriving, and what is likely to happen along the way.
+The premise is about what machines are _able_ to do. It says nothing about what they cost, how many of them there are, or how quickly they are put to use. Those are separate questions, and each gets its own treatment: cost in @ch-wages, numbers in @ch-two-transitions, speed in @ch-speed.
+
+Parts II and III take the premise as _completely_ true and work out what follows. That is a deliberate choice of method. It is the only way to see the destination clearly, and several of the results turn out to depend on the difference between "nearly all tasks" and "all tasks." It is not a claim that the premise is true today, and a reader who doubts that it ever will be should read those parts as an extended "if." Part IV then asks the empirical questions: how much of the premise is already true, how fast the rest is arriving, and what is likely to happen along the way. For the impatient: I put the chance that the premise is true of nearly all mental work by 2032 at about four in five, and the chance that it is true of nearly all work, mental and physical, by 2045 at about three in five.
 
 == Why this machine is different in kind
 
@@ -28,11 +30,11 @@ That is why the reassuring history of @ch-history cannot simply be extended forw
 
 Suppose such a machine exists. As an input to production it differs from human work in five ways, and each one matters later.
 
-*It is owned.* A machine worker is a piece of capital. It is built, bought and sold, and what it earns belongs to its owner (@a-ownership). A human worker owns their own work and is paid for it. This single difference is the root of the whole distribution problem.
+*It is owned.* A machine worker is a piece of capital. It is built, bought and sold, and what it earns belongs to its owner (@a-ownership). A human worker owns their own work and is paid for it. This single difference is the root of the whole distribution problem. It is also an assumption: this guide supposes throughout that machines remain property and do what their owners direct. If that failed, the questions would be different ones and economics would not be the place to look for answers.
 
 *It can be copied.* A person takes about twenty years to raise and educate, and each one has to be trained separately. When one machine has learned a skill, the skill can be copied to a million machines for the cost of the copying. So the supply of a newly valuable skill, which among people is scarce for a generation, can be expanded among machines almost at once.
 
-*It gets cheaper.* The price of a fixed level of AI capability has been falling roughly tenfold a year, through better chips, better methods and competition among suppliers @epoch-price-2026. Nothing about the cost of a person's upkeep falls like that.
+*It gets cheaper.* The price of a fixed level of AI capability has been falling roughly tenfold a year, through better chips, better methods and competition among suppliers @epoch-price-2026. The cost of a person's upkeep has never fallen like that.
 
 *It does not rest.* A machine can work all 168 hours of the week. A full-time person works about 40.
 
@@ -40,16 +42,12 @@ Suppose such a machine exists. As an input to production it differs from human w
 
 == How much of the premise is true today
 
-The detailed evidence is in @ch-now. In outline, as of November 2026:
+@ch-now sets out the evidence in detail. In one paragraph: for mental work the premise is partly true and advancing fast. The best systems now carry out, unattended, software projects that would take a skilled person days, and in a year they went from completing one in forty to two in five of a standard set of real freelance projects. They still fail most long, loosely specified or high-stakes professional work, and they do not learn on the job. For physical work the premise is true of driving and of little else. General-purpose robots are few, slow and unreliable.
 
-For _mental_ work, the premise is partly true and is advancing quickly. The best AI systems can now carry out, unattended, software projects that would take a skilled person days. One independent measure tracks the length of task that systems complete half the time: it stood at one hour in early 2025 and at seventeen hours in spring 2026 @metr-horizons-2026. On a benchmark made of real freelance projects graded against the paid professional's work, the best system completed 2.5 percent of projects in October 2025 and 41 percent in November 2026 @rli-2026. But on day-long professional tasks in finance and law the pass rate is still close to zero, about half the code that passes automated tests would be rejected by the people who maintain the software, and the systems do not get better at a job by doing it, as every human employee does @gdpx-2026 @notes-ai.
-
-For _physical_ work, the premise is true in one large task and barely true elsewhere. Driving has been automated in the sense that matters: one company carries half a million paying passengers a week with no driver, with a much better safety record than human drivers. General-purpose robots are at a far earlier stage. The best published result has a robot completing 56 percent of long household chores in homes it had never seen, working at a fraction of human speed. Fewer than a hundred thousand humanoid robots exist, and most are in laboratories @notes-robots.
-
-One caution applies to all such figures. Completing a task half the time is not the same as being employable. An employer needs something much closer to always, and the length of task that current systems complete four times in five is about one fifth of the length they complete half the time. Much of the distance between today's systems and the premise lies in that gap between usually and reliably.
+One caution applies to every such measurement. Completing a task half the time is not the same as being employable. An employer needs something much closer to always, and the length of task that current systems complete four times in five is about one fifth of the length they complete half the time. Much of the distance between today's systems and the premise lies in that gap between usually and reliably.
 
 #checkpoint[
-  - The premise is that machines can do every paid task at least as well as people, for less than it costs to support a person (@d-premise).
+  - The premise is that machines can do every paid task at least as well as people (@d-premise). It is a statement about capability. Cost, numbers and speed are separate questions.
   - It differs from all earlier automation because the machine is general, which removes the condition that protected workers before.
   - Machine labor is owned, can be copied, gets cheaper, works around the clock and can build more of itself.
   - Today the premise is partly true for mental work, true for driving, and mostly untrue for other physical work.

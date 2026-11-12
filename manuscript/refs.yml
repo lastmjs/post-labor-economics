@@ -28,7 +28,7 @@ notes-robots:
   url: https://github.com/lastmjs/post-labor-economics/blob/main/research/04-robotics-physical.md
 notes-baseline:
   type: web
-  title: "Research note 05: The structure of the US economy"
+  title: "Research note 05: The structure of the US economy: who earns, who owns, what the state collects"
   author: "Post-Labor Economics repository"
   date: 2026-11-12
   url: https://github.com/lastmjs/post-labor-economics/blob/main/research/05-us-baseline.md
@@ -219,10 +219,15 @@ allen-2009:
     issue: 4
   url: https://www.nuffield.ox.ac.uk/Users/Allen/engelspause.pdf
 allen-2018:
-  type: report
+  type: article
   title: "The Hand-Loom Weaver and the Power Loom: A Schumpeterian Perspective"
   author: ["Allen, Robert C."]
-  date: 2017
+  date: 2018
+  parent:
+    type: periodical
+    title: "European Review of Economic History"
+    volume: 22
+    issue: 4
   url: https://nyuad.nyu.edu/content/dam/nyuad/academics/divisions/social-science/working-papers/2017/0004.pdf
 olmstead-rhode-2001:
   type: article
@@ -401,7 +406,7 @@ gdpx-2026:
   url: https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities
 anthropic-s1-2026:
   type: web
-  title: "Amendment No. 2 to Form S-1 Registration Statement"
+  title: "Form S-1 Registration Statement, as amended 10 November 2026"
   author: "Anthropic PBC"
   date: 2026-11-10
   url: https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm
@@ -431,7 +436,7 @@ epoch-autonomy-2026:
   url: https://epoch.ai/publications/where-autonomy-works-evaluating-robot-capabilities-in-2026
 census-btos-2026:
   type: web
-  title: "Business Trends and Outlook Survey: AI Supplement"
+  title: "Business Trends and Outlook Survey: national data file"
   author: "U.S. Census Bureau"
   date: 2026-11-05
   url: https://www.census.gov/hfp/btos/downloads/National.xlsx
@@ -443,8 +448,8 @@ bick-blandin-deming-2026:
   url: https://genaiadoptiontracker.com/
 executives-2026:
   type: report
-  title: "Survey of executives at about 9,000 firms in seven countries on AI spending, productivity and employment"
-  author: "NBER Working Paper 34836"
+  title: "Firm Data on AI"
+  author: ["Yotzov, Ivan", "Barrero, Jose Maria", "Bloom, Nicholas", "others"]
   date: 2026-10
   organization: "NBER Working Paper 34836"
   url: https://www.nber.org/papers/w34836
@@ -586,15 +591,41 @@ fed-dfa-2026:
   date: 2026
   url: https://www.federalreserve.gov/releases/z1/dataviz/dfa/
 acemoglu-manera-restrepo-2020:
-  type: report
+  type: article
   title: "Does the US Tax Code Favor Automation?"
   author: ["Acemoglu, Daron", "Manera, Andrea", "Restrepo, Pascual"]
   date: 2020
-  organization: "NBER Working Paper 27052"
-  url: https://www.nber.org/papers/w27052
+  page-range: 231-300
+  parent:
+    type: periodical
+    title: "Brookings Papers on Economic Activity"
+    issue: "Spring"
+  url: https://www.brookings.edu/articles/does-the-u-s-tax-code-favor-automation/
 cook-2026:
   type: web
   title: "Speech, 28 September 2026"
   author: ["Cook, Lisa D."]
   date: 2026-09-28
   url: https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm
+lucas-2004:
+  type: article
+  title: "Unemployment Alters the Set Point for Life Satisfaction"
+  author: ["Lucas, Richard E.", "Clark, Andrew E.", "Georgellis, Yannis", "Diener, Ed"]
+  date: 2004
+  parent:
+    type: periodical
+    title: Psychological Science
+    volume: 15
+    issue: 1
+fri-leap-2026:
+  type: web
+  title: "Longitudinal Expert AI Panel"
+  author: "Forecasting Research Institute"
+  date: 2026
+  url: https://leap.forecastingresearch.org/
+ssa-trustees-2026:
+  type: report
+  title: "The 2026 Annual Report of the Board of Trustees of the Federal Old-Age and Survivors Insurance and Federal Disability Insurance Trust Funds"
+  author: "Social Security Administration"
+  date: 2026
+  url: https://www.ssa.gov/oact/tr/2026/

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-12T09:51:00.967500</dc:date>
+    <dc:date>2026-11-12T10:57:52.571004</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -875,7 +875,7 @@ L 346.136677 23.451097
 L 346.136677 10.630452 
 L 151.8912 10.630452 
 z
-" clip-path="url(#pc571f00645)" style="fill: #2a78d6"/>
+" clip-path="url(#pb6759460c7)" style="fill: #2a78d6"/>
    </g>
    <g id="patch_4">
     <path d="M 151.8912 49.092387 
@@ -883,7 +883,7 @@ L 275.254117 49.092387
 L 275.254117 36.271742 
 L 151.8912 36.271742 
 z
-" clip-path="url(#pc571f00645)" style="fill: #2a78d6"/>
+" clip-path="url(#pb6759460c7)" style="fill: #2a78d6"/>
    </g>
    <g id="patch_5">
     <path d="M 151.8912 74.733677 
@@ -891,7 +891,7 @@ L 177.858753 74.733677
 L 177.858753 61.913032 
 L 151.8912 61.913032 
 z
-" clip-path="url(#pc571f00645)" style="fill: #2a78d6"/>
+" clip-path="url(#pb6759460c7)" style="fill: #2a78d6"/>
    </g>
    <g id="patch_6">
     <path d="M 151.8912 100.374968 
@@ -899,7 +899,7 @@ L 163.682241 100.374968
 L 163.682241 87.554323 
 L 151.8912 87.554323 
 z
-" clip-path="url(#pc571f00645)" style="fill: #2a78d6"/>
+" clip-path="url(#pb6759460c7)" style="fill: #2a78d6"/>
    </g>
    <g id="patch_7">
     <path d="M 151.8912 126.016258 
@@ -907,7 +907,7 @@ L 159.115769 126.016258
 L 159.115769 113.195613 
 L 151.8912 113.195613 
 z
-" clip-path="url(#pc571f00645)" style="fill: #2a78d6"/>
+" clip-path="url(#pb6759460c7)" style="fill: #2a78d6"/>
    </g>
    <g id="patch_8">
     <path d="M 151.8912 151.657548 
@@ -915,7 +915,7 @@ L 157.343705 151.657548
 L 157.343705 138.836903 
 L 151.8912 138.836903 
 z
-" clip-path="url(#pc571f00645)" style="fill: #2a78d6"/>
+" clip-path="url(#pb6759460c7)" style="fill: #2a78d6"/>
    </g>
    <g id="patch_9">
     <path d="M 151.8912 160.632 
@@ -1448,7 +1448,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pc571f00645">
+  <clipPath id="pb6759460c7">
    <rect x="151.8912" y="1.656" width="265.8096" height="158.976"/>
   </clipPath>
  </defs>

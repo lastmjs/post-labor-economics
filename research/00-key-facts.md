@@ -1,6 +1,6 @@
 # 00. Key facts used in the guide
 
-A working digest of the numbers the guide relies on, drawn from the nine research notes in this directory. Each line names the note that carries the source link. All figures are as of 12 November 2026 unless dated. Where the notes mark a figure as unverified, the guide does not lean on it.
+A working digest of the numbers the guide relies on, drawn from the nine research notes in this directory (01 to 09). Each line names the note that carries the source link. All figures are as of 12 November 2026 unless dated. Where the notes mark a figure as unverified, the guide does not lean on it.
 
 ## The US economy and labor market (notes 03, 05, 07, 08)
 
@@ -20,7 +20,7 @@ A working digest of the numbers the guide relies on, drawn from the nine researc
 ## Evidence of AI in the labor market (note 03)
 
 - No aggregate displacement visible. Best estimates of the total effect: about 0.1 point of unemployment (Dallas Fed, Goldman Sachs); net drag of 11,000–16,000 jobs a month (Goldman, 2026).
-- "Canaries" (Brynjolfsson, Chandar, Chen; ADP payroll data, Aug 2026 revision): employment of 22–25-year-olds in the most AI-exposed occupations is 19% below the path of less-exposed peers (15% a year earlier), through less hiring, not more firing. The gap is 13 points in ADP data and 2 points (not significant) in Census data, and shrinks with education controls. A Danish study finds the same decline at firms that did not adopt AI.
+- "Canaries" (Brynjolfsson, Chandar, Chen; ADP payroll data, Aug 2026 revision): employment of 22–25-year-olds in the most AI-exposed occupations is 19% below the path of less-exposed peers (15% a year earlier), through less hiring, not more firing. The gap is 13 points in ADP data and 2 points (not significant) in Census data, and shrinks with education controls. A Danish study (records to December 2024) finds no difference between workplaces that encouraged chatbot use and those that did not.
 - Occupations, May 2022 to May 2025 (BLS): computer programmers −31%, data entry keyers −19%, customer service representatives −10% (−284,000), writers −11%, editors −10%, graphic designers −7%; software developers +10%, paralegals +14%, accountants +3%. Call-center employment −27% since Nov 2022 (−116,000).
 - Software job postings fell 39% from their peak before ChatGPT launched and are up 33% from the May 2025 low.
 - Recent-graduate unemployment 5.2% (Q3 2026), down from 5.6%; ages 20–24 at 7.5%, down from a 9.2% peak in 2025.

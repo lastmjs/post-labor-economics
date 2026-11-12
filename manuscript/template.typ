@@ -18,6 +18,7 @@
 #let kinds = (
   axiom: (prefix: "A", name: "Axiom", color: rgb("#1c5cab")),
   definition: (prefix: "D", name: "Definition", color: rgb("#52514e")),
+  hypothesis: (prefix: "H", name: "Hypothesis", color: rgb("#5a3fb5")),
   proposition: (prefix: "P", name: "Proposition", color: rgb("#0d6b4c")),
   forecast: (prefix: "F", name: "Forecast", color: rgb("#b5451b")),
 )
@@ -61,6 +62,7 @@
 
 #let axiom(title, body) = statement("axiom", title, body)
 #let definition(title, body) = statement("definition", title, body)
+#let hypothesis(title, body, breakable: false) = statement("hypothesis", title, body, breakable: breakable)
 #let proposition(title, body, from: none, breakable: false) = statement("proposition", title, body, from: from, breakable: breakable)
 #let forecast(title, body, from: none, breakable: false) = statement("forecast", title, body, from: from, breakable: breakable)
 
@@ -221,6 +223,7 @@
   show figure.where(kind: "axiom"): set block(breakable: true)
   show figure.where(kind: "definition"): set block(breakable: true)
   show figure.where(kind: "proposition"): set block(breakable: true)
+  show figure.where(kind: "hypothesis"): set block(breakable: true)
   show figure.where(kind: "forecast"): set block(breakable: true)
 
   show figure.caption: it => {
@@ -240,7 +243,7 @@
   // References to statements print as "A1", "P7" and link to the statement.
   show ref: it => {
     let el = it.element
-    if el != none and el.func() == figure and el.kind in ("axiom", "definition", "proposition", "forecast") {
+    if el != none and el.func() == figure and el.kind in ("axiom", "definition", "hypothesis", "proposition", "forecast") {
       let n = counter(figure.where(kind: el.kind)).at(el.location()).first()
       link(el.location(), text(font: sans, size: 0.86em, weight: 600, fill: kinds.at(el.kind).color)[#kinds.at(el.kind).prefix#n])
     } else {
@@ -274,7 +277,7 @@
 
 // The whole chain, in order, for the appendix.
 #let chain-listing() = context {
-  let counts = (axiom: 0, definition: 0, proposition: 0, forecast: 0)
+  let counts = (axiom: 0, definition: 0, hypothesis: 0, proposition: 0, forecast: 0)
   let rows = ()
   for item in chain.final() {
     counts.insert(item.kind, counts.at(item.kind) + 1)

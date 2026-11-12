@@ -79,9 +79,9 @@ def simulate(
     start=4.0,
     finish=30.0,
     sigma=0.5,
-    saving=None,
+    saving=0.10,
     depreciation=0.06,
-    gamma_growth=0.08,
+    gamma_growth=0.05,
     A_growth=0.0,
     labor_share0=0.58,
     alpha=1.0,
@@ -89,19 +89,19 @@ def simulate(
 ):
     """Path of the economy while the automated share rises along an S-curve.
 
-    The automated share of tasks moves from `I0` to `I_max` between the years
-    `start` and `finish`, and reaches `I_max` exactly at `finish`. Each unit of
-    machine capital does `gamma_growth` more work every year (machines get
-    better and cheaper). The starting capital stock is chosen so that the
-    labour share equals `labor_share0`. If `saving` is None the saving rate is
-    set so that, without automation or better machines, nothing would change.
-    Returns a dict of arrays indexed by year.
+    The automated share of tasks rises from `I0` toward 1 between the years
+    `start` and `finish`, and stops when it reaches `I_max`. Runs with different
+    `I_max` therefore follow the same path until the lower ceiling is reached.
+    Each unit of machine capital does `gamma_growth` more work every year
+    (machines get better and cheaper). Owners reinvest the share `saving` of
+    output in new machine capital. The starting capital stock is chosen so that
+    the labour share equals `labor_share0`. Returns a dict of arrays by year.
     """
     L = 1.0
 
     def frontier(t):
         x = min(max((t - start) / (finish - start), 0.0), 1.0)
-        return I0 + (I_max - I0) * (3 * x**2 - 2 * x**3)
+        return min(I0 + (1.0 - I0) * (3 * x**2 - 2 * x**3), I_max)
 
     # Calibrate initial capital by bisection on the labour share.
     lo, hi = 1e-6, 1e6
@@ -114,8 +114,6 @@ def simulate(
         else:
             hi = mid
     K = np.sqrt(lo * hi)
-    if saving is None:
-        saving = depreciation * K / task_economy(K, L, I0, sigma=sigma, alpha=alpha, N=N).output
 
     out = {k: [] for k in ("year", "I", "K", "Y", "wage", "rental", "labor_share", "regime")}
     gamma, A = 1.0, 1.0

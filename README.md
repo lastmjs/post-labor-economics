@@ -7,16 +7,23 @@ A first-principles guide to one question:
 **Read the guide: [`dist/post-labor-economics.pdf`](dist/post-labor-economics.pdf)**
 
 The guide builds its answer as a chain of numbered statements. Eight axioms about
-how any market economy works lead, step by step, to twenty-seven propositions
-about what happens to wages, production, the distribution of income and political
-power when machines can do all the work. It then looks at the evidence as of
-November 2026, sets out six scenarios for 2026–2036 with probabilities, and ends
-with the author's best guess.
+how any market economy works, and five hypotheses whose odds are stated, lead step
+by step to twenty-six propositions about what happens to wages, production, the
+distribution of income and political power when machines can do all the work.
+Each proposition names the statements it rests on. The guide then looks at the
+evidence as of November 2026, makes six dated forecasts, sets out six scenarios
+for 2026–2036 with probabilities, and ends with the author's best guess.
 
 The short answer: **the economy does not break; the wage does, and the wage was
-doing more than anyone noticed.** Production rises. The channel through which
-most people receive their share of it closes. What replaces that channel is a
-political choice, and the time to make it is during the transition.
+doing more than anyone noticed.** Production rises. The wage stops rising with
+it, and the channel through which most people receive their share closes. What
+replaces that channel is a political choice, and the time to make it is during
+the transition.
+
+The draft was put through two independent reviews, one of its logic and one of
+its facts, and revised against both. What the reviews could not settle is stated
+in the text as a hypothesis or a forecast with a probability, and not as a
+conclusion.
 
 ## About the author
 
@@ -33,7 +40,7 @@ source so that it can be checked.
 | [`manuscript/`](manuscript/) | Source of the guide, in [Typst](https://typst.app), with the bibliography in `refs.yml` |
 | [`research/`](research/) | Nine sourced research notes (theory, AI capability, labor-market evidence, robotics, US baseline data, history, policy, the landscape of forecasts, compute and energy) and a digest of the key facts |
 | [`models/`](models/) | A small task-based model of automation and wages, the scenario accounting, and the script behind every figure |
-| [`data/`](data/) | Public data series used in the figures |
+| [`data/`](data/) | Public data series used in the figures and the text |
 | [`figures/`](figures/) | Generated figures (SVG) |
 
 Each research note marks every claim as read at the source, taken from a
