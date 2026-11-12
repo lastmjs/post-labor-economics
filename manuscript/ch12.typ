@@ -68,6 +68,16 @@ It clarifies the argument to ask what would happen if only one of the two transi
 
 The point of the exercise is that _the second transition is the one that changes the kind of economy we live in_. The first redistributes income and status within a wage economy. The second ends the wage economy. And the first speeds the second, because the scarcest input to robotics has been engineering talent, and engineering is mental work.
 
+== A note on the rest of the world
+
+This guide is about the United States, but three facts about other countries bear on its argument @notes-robots @notes-labor.
+
+Countries that sell screen-based services to the rich world, such as India with its software and back-office industry and the Philippines with its call centers, face the first transition without owning the machines that carry it out. India's three largest technology-services firms have barely added staff since 2022, after years of rapid hiring.
+
+Poor countries have generally become richer by offering cheap labor, first of all in factories. A world in which machine labor is cheaper than any human labor takes that ladder away.
+
+And the physical half of the machine economy runs through China, which installs more than half of the world's industrial robots, builds nearly nine tenths of its humanoid robots and controls most of the supply of the magnets that every robot motor needs. The United States leads in machine minds. It does not lead in machine hands, and the second transition depends on them.
+
 #checkpoint[
   - Mental machine labor can be supplied in unlimited quantity as soon as it is capable. Physical machine labor has to be manufactured, body by body.
   - Screen-based work, 37 percent of jobs and 46 percent of wages, is therefore exposed first and fastest. The adjustment comes through hiring before it comes through layoffs.

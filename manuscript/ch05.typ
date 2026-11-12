@@ -73,7 +73,7 @@ Suppose, then, that the premise holds completely and there is no last task. Huma
 The first three steps were logic, and every formal model of full automation agrees with them. This step is different. Economic theory does not say whether the machine price is high or low. That is a question of fact about engineering and costs, and it has to be answered with numbers.
 
 #proposition([The upkeep comparison], from: [@p-at-cost, @d-machine-labor])[
-  A machine that does the work of a person needs fewer resources to build and run than a person needs in order to live. This is already true, at today's prices, for the tasks machines can perform, and the gap widens every year because the cost of machines falls and the needs of a human body do not.
+  A machine that does the work of a person needs fewer resources to build and run than a person needs in order to live. For the mental tasks that machines can already perform, this is true today by a wide margin. For physical tasks it is true of the machine itself, and not yet of the machine together with the people who must still supervise it. The gap widens every year, because the cost of machines falls and the needs of a human body do not.
 ] <p-upkeep>
 
 Here are the numbers in money, as they stood in late 2026 @bls-oews-2025 @bls-ecec-2026 @notes-ai @notes-robots.
