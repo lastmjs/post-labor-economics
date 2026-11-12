@@ -5,6 +5,7 @@ one, automation stops there. In the other it goes on to 100%. In each world the
 wage is shown for three rates at which owners reinvest output in more machines.
 """
 import numpy as np
+from matplotlib import patheffects
 
 import style
 from economy import simulate
@@ -30,8 +31,11 @@ for col, (title, I_max) in enumerate(WORLDS):
         if col == 0:
             style.end_label(top, t[-1], wage[-1], f"×{wage[-1]:.0f}", color, dy={0.05: -3, 0.10: -4, 0.20: 6}[saving])
         else:
-            top.annotate(f"peak ×{wage[peak]:.1f}" if wage[peak] < 10 else f"peak ×{wage[peak]:.0f}", (t[peak], wage[peak]),
-                         xytext=(-8, 5), textcoords="offset points", ha="right", fontsize=7.2, color=style.SOFT)
+            # Labels sit inside each curve's own hump (or above the top one), clear of the other lines.
+            offset, va = {0.05: ((0, -6), "top"), 0.10: ((-9, -17), "top"), 0.20: ((0, 5), "bottom")}[saving]
+            text = top.annotate(f"peak ×{wage[peak]:.1f}" if wage[peak] < 10 else f"peak ×{wage[peak]:.0f}", (t[peak], wage[peak]),
+                                xytext=offset, textcoords="offset points", ha="center", va=va, fontsize=7.2, color=style.SOFT)
+            text.set_path_effects([patheffects.withStroke(linewidth=2.2, foreground="white")])
     if col == 1:
         style.end_label(top, t[-1], wage[-1], f"×{wage[-1]:.2f}: the\nmachine price", style.BLUES[4])
     top.set_yscale("log")

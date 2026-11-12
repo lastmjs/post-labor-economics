@@ -66,7 +66,7 @@ The case for sooner is the measured trend and the measured acceleration of AI re
   A recession, as dated by the National Bureau of Economic Research, will begin in the United States before the end of 2029 with probability 65 percent. If it does, employment in screen-based occupations will still be below its previous peak three years after the recession ends, with probability 70 percent.
 ] <f-recession>
 
-The first number is roughly double the historical rate. Since 1945 a recession has begun in about two of every five periods of three years. I put it higher because of the bust described above: a one-in-two chance of a bust that very probably brings a recession, plus the ordinary risk in the cases where there is no bust, comes to about 65 percent. The second number is the claim that matters, and the two together mean that the full sequence set out above has a little under an even chance of having happened by the early 2030s.
+The first number is well above the historical rate. Since 1945 a recession has begun in a little under two of every five periods of three years. I put it higher because of the bust described above: a one-in-two chance of a bust that very probably brings a recession with it, plus the ordinary risk in the cases where it does not, comes to about 65 percent. The second number is the claim that matters, and the two together mean that the full sequence set out above has a little under an even chance of having happened by the early 2030s.
 
 #forecast([Employment, labor's share and growth in 2036], from: [@f-diffusion, @f-robots, @f-recession, @p-cliff])[
   - The share of Americans aged 25 to 54 who have a job, 80.7 percent in October 2026, will be about 75 percent (80 percent range: 45 to 80).
