@@ -5,7 +5,7 @@ import style
 ROWS = [
     ("Average cost to a US employer of an hour of work\n(pay plus benefits, all private industry)", 46.89, 46.89, "human"),
     ("Same, service occupations", 23.73, 23.73, "human"),
-    ("Poverty-line living costs, per hour of a full-time year", 7.52, 7.52, "human"),
+    ("Poverty-line living costs, per hour of a full-time year", 7.67, 7.67, "human"),
     ("Humanoid robot today, per robot-hour\n(and it works more slowly than a person)", 13, 55, "machine"),
     ("Humanoid robot at plausible 2030 prices", 5, 19, "machine"),
     ("Frontier AI agent, market price per hour it runs", 16, 50, "machine"),

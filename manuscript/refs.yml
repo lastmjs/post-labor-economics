@@ -298,7 +298,7 @@ jones-marinescu-2022:
 alaska-pfd:
   type: web
   title: "Summary of Dividend Applications and Payments"
-  author: "Alaska Department of Revenue, Permanent Fund Dividend Division"
+  author: "Alaska Department of Revenue"
   date: 2026
   url: https://pfd.alaska.gov/Division-Info/summary-of-dividend-applications-payments
 census-poverty-2023:
@@ -372,7 +372,7 @@ anthropic-employment-2026:
 challenger-2026:
   type: web
   title: "October Layoffs at Three-Year Low"
-  author: "Challenger, Gray & Christmas"
+  author: "Challenger Gray and Christmas"
   date: 2026-11
   url: https://www.challengergray.com/blog/october-layoffs-at-three-year-low-seasonal-hiring-plans-up-26/
 metr-horizons-2026:
@@ -568,7 +568,7 @@ cnbc-openai-stake-2026:
 ash-center-2026:
   type: web
   title: "What the 2026 Midterm Results Mean for Technology Policy"
-  author: "Ash Center, Harvard Kennedy School"
+  author: "Harvard Kennedy School Ash Center"
   date: 2026-11
   url: https://ash.harvard.edu/articles/what-the-2026-midterm-results-mean-for-technology-policy
 pew-2026:
@@ -577,3 +577,18 @@ pew-2026:
   author: "Pew Research Center"
   date: 2026-08-18
   url: https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/
+
+# ---------------------------------------------------------------- added
+fed-dfa-2026:
+  type: web
+  title: "Distributional Financial Accounts and Financial Accounts of the United States, second quarter of 2026"
+  author: "Board of Governors of the Federal Reserve System"
+  date: 2026
+  url: https://www.federalreserve.gov/releases/z1/dataviz/dfa/
+acemoglu-manera-restrepo-2020:
+  type: report
+  title: "Does the US Tax Code Favor Automation?"
+  author: ["Acemoglu, Daron", "Manera, Andrea", "Restrepo, Pascual"]
+  date: 2020
+  organization: "NBER Working Paper 27052"
+  url: https://www.nber.org/papers/w27052

@@ -12,19 +12,19 @@ Recall that income can come only from work, from ownership or from transfers (@d
   Under the premise, all of the economy's income is paid to the owners of machines, land, natural resources and legal rights. Any person's claim on output is then the return on what they own plus whatever is transferred to them.
 ] <p-ownership>
 
-So the question "who receives the output?" becomes "who owns things?" The answer for the United States is on record. // CHECK all figures in this section against research 05
+So the question "who receives the output?" becomes "who owns things?" The answer for the United States is on record, in the Federal Reserve's accounts of who holds the nation's wealth @fed-dfa-2026.
 
 #figure(
   datatable(
-    columns: (auto, auto, auto, auto),
-    align: (left, right, right, right),
-    header: ([Group of households], [Share of all wealth], [Share of company shares], [Share of income today]),
-    [Wealthiest 1%], [31%], [50%], [—],
-    [Next 9%], [36%], [37%], [—],
-    [Middle 40% (50th to 90th percentile)], [30%], [12%], [—],
-    [Less wealthy half], [2.5%], [1%], [—],
+    columns: (1fr, auto, auto),
+    align: (left, right, right),
+    header: ([Group of households, ranked by wealth], [Share of all household wealth], [Share of all company shares]),
+    [Wealthiest 1%], [32.5%], [50.9%],
+    [Next 9%], [36.4%], [37.2%],
+    [Middle 40% (50th to 90th percentile)], [28.8%], [11.4%],
+    [Less wealthy half], [2.3%], [0.6%],
   ),
-  caption: [Who owns what in the United States. Wealth is far more concentrated than income, and ownership of companies is more concentrated than wealth as a whole. PLACEHOLDER VALUES.],
+  caption: [Who owns what in the United States, second quarter of 2026. Company shares are corporate equities and mutual fund shares, including those held in retirement accounts. Total household net worth was \$186 trillion. Source: Federal Reserve, Distributional Financial Accounts.],
 ) <tab-wealth>
 
 Income today is unequal, but it is much less unequal than wealth, and the reason is wages. Most people own little (@a-labor-only) and nonetheless receive a real share of output, because they sell work. Take the wage away and the distribution of income moves toward the distribution of ownership.
@@ -53,7 +53,7 @@ Every dollar of output is somebody's income. That is true with or without worker
 
 They can _consume_: larger houses, private aircraft, staff, art, medical care at the frontier, security, travel, political influence. Wants are unlimited (@a-scarcity), for the rich as for everyone.
 
-Or they can _invest_: use the output to build more machines, more power plants, more data centers. Under the premise this is very attractive, because the return on new machines is high (@ch-growth). An economy can direct a large part of its output to building its own future capacity for a long time. China has invested more than 40 percent of its output every year for two decades. // CHECK China investment share
+Or they can _invest_: use the output to build more machines, more power plants, more data centers. Under the premise this is very attractive, because the return on new machines is high (@ch-growth). An economy can direct a large part of its output to building its own future capacity for a long time. China has invested more than 40 percent of its output every year for two decades.
 
 #proposition([There is no demand paradox, only a change in what is produced], from: [@p-identity, @a-scarcity])[
   A post-labor economy does not run out of buyers. Total income still equals total output. What changes is whose wants direct production. Spending shifts from what wage earners buy toward what the owners of capital and land want to consume, toward investment in more machines, and toward whatever governments purchase.
@@ -71,9 +71,9 @@ That was the destination. The journey is more dangerous, and here the objection 
 
 *Wage earners spend what they get; owners mostly do not.* A household living on wages spends nearly all of its income. A wealthy household that receives an extra dollar of profit spends a small part and saves the rest. When income moves quickly from wages to profits, total spending falls unless investment or government spending rises at the same moment by the same amount. There is no mechanism that guarantees the timing.
 
-*Debts are fixed in dollars.* American households owe about \$18 trillion, most of it mortgages, on the assumption that wages will arrive. When wages stop, payments stop. Defaults damage banks, banks lend less, house prices fall, and households who still have jobs cut spending because they feel poorer. This is the mechanism that turned the 1929 crash into the Great Depression and the 2007 housing bust into the Great Recession. // CHECK debt total
+*Debts are fixed in dollars.* American households owe about \$21 trillion, two thirds of it mortgages, on the assumption that wages will arrive @fed-dfa-2026. When wages stop, payments stop. Defaults damage banks, banks lend less, house prices fall, and households who still have jobs cut spending because they feel poorer. This is the mechanism that turned the 1929 crash into the Great Depression and the 2007 housing bust into the Great Recession.
 
-*Recessions are when the cuts happen.* Firms are reluctant to dismiss workers in good times and quick to do it in bad times. Studies of recent decades find that routine jobs were destroyed almost entirely during recessions and did not come back in the recoveries. A downturn caused by displacement therefore causes more displacement. // CHECK Jaimovich & Siu
+*Recessions are when the cuts happen.* Firms are reluctant to dismiss workers in good times and quick to do it in bad times. Studies of recent decades find that routine jobs were destroyed almost entirely during recessions and did not come back in the recoveries @jaimovich-siu-2012. A downturn caused by displacement therefore causes more displacement.
 
 #proposition([A fast transition can produce a slump in the middle of abundance], from: [@p-share-zero, @p-no-paradox])[
   If wage income falls faster than other spending rises to replace it, the result is an ordinary recession on top of the structural change: falling sales, defaults, failing lenders and further layoffs. The economy's ability to produce is unharmed throughout. What fails is the flow of spending.

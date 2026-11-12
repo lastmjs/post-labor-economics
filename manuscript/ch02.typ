@@ -59,14 +59,14 @@ Apply the same reasoning to work. A wage is the price of an hour of someone's wo
 == How most people get their share
 
 #axiom([Most people own little except their capacity to work])[
-  In the United States the less wealthy half of households owns about 2.5 percent of all household wealth, and most of that is the house they live in. The wealthiest tenth owns about two thirds of all wealth and nearly nine tenths of all shares in companies. For a typical household, wages and the benefits that depend on wages are the main source of income for the whole of working life. // CHECK numbers against research/05
+  In the United States the less wealthy half of households owns 2.3 percent of all household wealth, and most of that is the house they live in. The wealthiest tenth owns 69 percent of all wealth and 88 percent of all shares in companies. For a typical household, wages and the benefits that depend on wages are the main source of income for the whole of working life @fed-dfa-2026.
 ] <a-labor-only>
 
 #proposition([The wage system is the distribution system], from: [@d-income, @p-identity, @a-labor-only])[
   Because most people own little except their work, most people's claim on output is their wage. The labor market is therefore doing two jobs at once. It is a *pricing* system, which tells firms where human work is worth using. And it is the *distribution* system, which decides how much of the output most households can buy.
 ] <p-wage-system>
 
-The second job goes deeper than paychecks. In the United States most of the safety net is itself built on wages. Social Security and Medicare are financed by a tax on payrolls, and their benefits are earned through years of covered work. Unemployment insurance pays in proportion to past wages. About half the population gets health insurance through an employer. Mortgages are granted against expected wages. Even the federal government's own income rests mainly on work: taxes on wages and salaries supply most of its revenue. // CHECK
+The second job goes deeper than paychecks. In the United States most of the safety net is itself built on wages. Social Security and Medicare are financed by a tax on payrolls, and their benefits are earned through years of covered work. Unemployment insurance pays in proportion to past wages. About half the population gets health insurance through an employer. Mortgages are granted against expected wages. Even the federal government's own income rests mainly on work: taxes on wages and salaries supply most of its revenue @treasury-mts-2026.
 
 The two jobs of the labor market have gone together for so long that they look like one thing. They are two. One is a matter of engineering and cost: is a person the cheapest way to get this task done? The other is a matter of how people live. For two hundred years the answer to the first has been "yes, for a great many tasks," and so the second took care of itself. The rest of this guide asks what happens when the answer to the first question becomes "no."
 

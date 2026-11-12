@@ -6,7 +6,7 @@ The earlier chapters kept three things apart: what is true of any economy, what 
 
 #plot("../figures/probabilities.svg", [
   *My probabilities for where the United States is in 2036.* They sum to 100 percent. The three scenarios in which the technology moves at least as fast as in the central case, and the distribution of its gains is unsettled or settled badly, add up to 65 percent.
-], source: [the author's judgment. `models/fig_probabilities.py`]) <fig-probabilities>
+], source: [the author's judgment. `models/fig_probabilities.py`], placement: none) <fig-probabilities>
 
 == The answer to the question
 
@@ -28,7 +28,7 @@ I do not think the premise becomes fully true by 2036. I think it becomes true f
 
 *2030 to 2031.* The recovery arrives and the office jobs do not. Output grows 4 percent a year and employment barely moves. By now machines can do nearly any task that is done at a screen, and the argument shifts from whether to how fast. Congress passes the first structural measures: unemployment benefits that extend automatically, a tax on AI usage, a modest national dividend, public-service jobs, and a long list of roles in which the law requires a human. Skilled trades are in demand and well paid. Capable robots appear in warehouses and factories in the hundreds of thousands.
 
-*2032 to 2033.* The Social Security trust fund runs short, sooner than once projected because payroll-tax receipts have sagged. The fix draws on the machine economy and sets a precedent. Driverless trucks and taxis become ordinary. The big office cities are in fiscal trouble: their tax bases were salaries and commercial property. A university degree no longer pays what it did, and enrollments fall. // CHECK
+*2032 to 2033.* The Social Security trust fund runs short, sooner than once projected because payroll-tax receipts have sagged. The fix draws on the machine economy and sets a precedent. Driverless trucks and taxis become ordinary. The big office cities are in fiscal trouble: their tax bases were salaries and commercial property. A university degree no longer pays what it did, and enrollments fall.
 
 *2034 to 2036.* Robots are produced by the million and their cost per hour drops below a few dollars. The physical refuge begins to close, in logistics and factories first. About three quarters of people aged 25 to 54 are in work. Labor's share of income is in the high forties. Machine-made goods and most services delivered through a screen are strikingly cheap; housing in desirable places, energy and anything that requires a licensed human are not. The wealthiest tenth own a larger share than they did. A national dividend exists and is small. The election of 2036 is about who owns the machines.
 

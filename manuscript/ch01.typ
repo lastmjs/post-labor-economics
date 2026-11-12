@@ -20,7 +20,7 @@ The third is to confuse what machines can do with what they are being used to do
 
 The guide is meant to be checked as well as read. It is built as a chain, and the links are numbered.
 
-- An *axiom* is a basic fact about how economies work, stated with the evidence for it. There are nine.
+- An *axiom* is a basic fact about how economies work, stated with the evidence for it. There are eight.
 - A *definition* fixes the meaning of a term.
 - A *proposition* is a conclusion. Each one names the earlier statements it rests on, so that a reader who doubts it can see exactly which link to test.
 - A *forecast* is a judgment about the future, with a probability attached. Forecasts appear only in Part IV and are kept apart from everything else.

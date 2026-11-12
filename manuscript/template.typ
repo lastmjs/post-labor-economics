@@ -116,9 +116,10 @@
 )
 
 // A figure produced by the models, with a caption and a source line.
-#let plot(path, caption, source: none, width: 100%) = figure(
+#let plot(path, caption, source: none, width: 100%, placement: auto) = figure(
   kind: image,
   supplement: [Figure],
+  placement: placement,
   {
     image(path, width: width)
   },
@@ -177,6 +178,8 @@
   )
 
   set heading(numbering: "1.1")
+  show heading: set text(hyphenate: false)
+  show heading: set par(justify: false)
   show heading.where(level: 1): set heading(supplement: [Chapter])
   show heading.where(level: 1): it => {
     pagebreak(weak: true)
@@ -230,6 +233,7 @@
   }
   set figure(gap: 9pt)
   show figure.where(kind: image): set block(above: 16pt, below: 16pt)
+  set place(clearance: 18pt)
   show figure.where(kind: table): set block(above: 16pt, below: 16pt)
   show figure.where(kind: table): set figure.caption(position: top)
 

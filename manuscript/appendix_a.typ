@@ -102,9 +102,9 @@ With $r = 0.85$ these relations reproduce the three scenarios for 2030 published
 
 #figure(
   datatable(
-    columns: (1.4fr, auto, auto, auto, auto),
+    columns: (1.6fr, 1fr, 1fr, 1fr, 1fr),
     align: (left, right, right, right, right),
-    header: ([AI share of screen-based work], [Output gain, here], [Output gain, published], [Labor share change, here], [Labor share change, published]),
+    header: ([AI share of screen-based work], [Output gain, here], [Output gain, published], [Labor share, here], [Labor share, published]),
     [About a fifth ("modest")], [1.4%], [1.6%], [−1.4], [−0.6],
     [About half ("substantial")], [8.5%], [8.3%], [−5.0], [−3.9],
     [Nearly all ("extreme")], [31.9%], [32.4%], [−13.9], [−14.8],

@@ -14,16 +14,16 @@ The model is described in #link(<app-models>)[Appendix A]. Its job is consistenc
 
 #figure(
   datatable(
-    columns: (1.25fr, auto, auto, auto, auto, auto, auto),
+    columns: (1.5fr, 0.7fr, 1fr, 1fr, 0.9fr, 0.8fr, 0.8fr),
     align: (left, right, right, right, right, right, right),
-    header: ([Scenario], [My odds], [Screen work done by machines], [Physical work done by machines], [Aged 25–54 in work], [Labor share], [Growth a year]),
+    header: ([Scenario], [My odds], [Screen work by machines], [Physical work by machines], [Aged 25–54 in work], [Labor share], [Growth a year]),
     [Today (2026)], [], [5%], [under 1%], [80.7%], [53.0%], [about 2%],
-    [1. Slow diffusion], [15%], [13%], [2%], [80%], [52%], [2.0%],
-    [2. The squeeze], [40%], [51%], [10%], [75%], [48%], [3.2%],
-    [3. Shared dividend], [12%], [51%], [10%], [75%\*], [48%], [3.2%],
-    [4. Rentier drift], [13%], [81%], [34%], [59%], [34%], [6.2%],
-    [5. Takeoff], [12%], [98%], [84%], [26%], [12%], [18%],
-    [6. The brake], [8%], [28%], [4%], [79%], [51%], [2.2%],
+    [Slow diffusion], [15%], [13%], [2%], [80%], [52%], [2.0%],
+    [The squeeze], [40%], [51%], [10%], [75%], [48%], [3.2%],
+    [Shared dividend], [12%], [51%], [10%], [75%\*], [48%], [3.2%],
+    [Rentier drift], [13%], [81%], [34%], [59%], [34%], [6.2%],
+    [Takeoff], [12%], [98%], [84%], [26%], [12%], [18%],
+    [The brake], [8%], [28%], [4%], [79%], [51%], [2.2%],
   ),
   caption: [The six scenarios in 2036. Machine shares are the scenario's assumptions; the last three columns are outputs of the accounting model. \*In "Shared dividend" a shorter standard working week spreads the same hours of work over more people, so the employment rate would be higher than shown.],
 ) <tab-scenarios>
@@ -50,7 +50,7 @@ _The machines arrive for mental work at the speed of diffusion, and the United S
 
 The pain falls on the professional class and on the young who expected to join it. Law, finance, software, media, marketing, consulting and administration all shrink. Physical and in-person work absorbs some of the displaced, at lower pay. The trades do well. So do the owners of shares, land and energy.
 
-Washington responds the way it usually does. Unemployment benefits are extended, then extended again. There are rounds of checks, called dividends. The government takes shares in the AI companies, partly as a condition of the support it gives them in the bust. There are new taxes on AI usage and on data centers, set too low to matter. States pass laws requiring a human in a widening list of roles. Social Security's trust fund, due to run short in the early 2030s, forces a larger bargain, and some money from the machine economy is routed into it. // CHECK trust fund date
+Washington responds the way it usually does. Unemployment benefits are extended, then extended again. There are rounds of checks, called dividends. The government takes shares in the AI companies, partly as a condition of the support it gives them in the bust. There are new taxes on AI usage and on data centers, set too low to matter. States pass laws requiring a human in a widening list of roles. Social Security's trust fund, already projected to run short in the first half of the 2030s, forces a larger bargain, and some money from the machine economy is routed into it.
 
 *In 2036.* Machines do about half of what was screen-based work and a tenth of physical work. Three quarters of people aged 25 to 54 are in work, down from four fifths. Labor's share of income is 47 or 48 percent. Total pay has roughly kept pace with a no-AI economy, but it is shared among fewer people and the premium for education has shrunk. The economy has grown a little over 3 percent a year. Robots are being built by the million, and everyone can see what comes next. The country is perhaps a third of the way through the transition, and has not decided who will own the result.
 
@@ -120,7 +120,7 @@ Three events are likely enough, and independent enough of the scenario, to plan 
 
 *A financial bust in the AI build-out* (about 60 percent by 2029). It delays the frontier by a year or three, hands the data centers to new owners at a discount, and serves as the recession that triggers the jobless recovery. It makes slow diffusion more likely only if it starves the leading laboratories of funds for long.
 
-*The Social Security shortfall* (near certain, early 2030s). The program's trust fund is financed by a tax on wages. Displacement brings its exhaustion forward. Because the program is the most popular in American government, Congress will be forced to find other money for it at exactly the moment the machine economy is the obvious place to look. This is the likeliest occasion for the first large transfer from capital to households, and it will set a pattern. // CHECK
+*The Social Security shortfall* (near certain, early 2030s). The program's trust fund is financed by a tax on wages. Displacement brings its exhaustion forward. Because the program is the most popular in American government, Congress will be forced to find other money for it at exactly the moment the machine economy is the obvious place to look. This is the likeliest occasion for the first large transfer from capital to households, and it will set a pattern.
 
 *A shock to chip supply* (perhaps 10 to 15 percent over the decade). It would move any scenario toward the brake for several years.
 
@@ -130,7 +130,7 @@ Each scenario implies observations that would be surprising under the others. Th
 
 #figure(
   datatable(
-    columns: (1.1fr, 1.6fr),
+    columns: (2.2fr, 1fr),
     align: (left, left),
     header: ([If you see this], [it favors]),
     [No public AI system completes week-long, loosely specified projects by the end of 2028], [Slow diffusion],
